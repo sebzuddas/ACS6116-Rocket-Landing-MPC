@@ -95,8 +95,33 @@ Through MATLAB: \verb|Rank = rank(ctrb(A, B))| we find the system is controllabl
 \subsection{Controller Design}
 Three separate controllers are considered in this report. 
 The first controller is an unconstrained, two stage MPC. The second controller builds on the first, and introduces both state and input constraints. The third controller further builds on the first two, introducing disturbance rejection.
-We start by looking at the first controller. 
+We start by looking at the unconstrained controller.
 \subsubsection{Unconstrained}
+The $Q$ and $R$ matrices are chosen as follows:
+
+\[
+    Q = \begin{bmatrix}
+        5&0&0&0&0&0 \\
+        0&5&0&0&0&0 \\
+        0&0&100&0&0&0 \\
+        0&0&0&1&0&0 \\
+        0&0&0&0&1&0 \\
+        0&0&0&0&0&100 \\
+    \end{bmatrix}
+    ;\\ R = I \cdot 0.1 \text{ for }  I \in \mathbb{R}^{3\times 3}
+\]
+
+The $Q$ matrix was chosen as to prioritose the vertical position and velocity.
+This represents the high level of importance given to landing at the correct altitude. 
+Similarly, the prioritisation of velocity represents the importance of landing a velocity that prevents a hard landing.
+The lateral positions, ie $r_x$ and $r_y$, are given a lower priority than the vertical position, but a higher priority than the lateral velocity, $v_x$ and $v_y$.
+The reasoning behind this is that it is more important that the landing location is correct over the lateral velocities throughout the entire simulation. \\
+The $R$ matrix was chosen as to penalise the control inputs, $f_x$, $f_y$ and $f_z$, equally.
+The small value given to $R$, 0.1, represents the low cost associated with expending fuel to control the rocket, and encourages the rocket to use fuel to exercise control in all three directions equally. 
+
+
+
+
 
 \subsubsection{Constrained}
 
@@ -107,8 +132,8 @@ We start by looking at the first controller.
 First, it is important to state simplifications for 
 Let the starting parameters be as follows:
 \[
-    
-    \begin{bmatrix}
+
+\begin{bmatrix}
         r_x(0)\\
         r_y(0)\\
         r_z(0)\\
