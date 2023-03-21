@@ -14,8 +14,7 @@
 
 \begin{document}
 
-\title{Designing an MPC Controller for a Simplified Rocket Landing Problem} \\
-
+\title{Designing an MPC Controller for a Simplified Rocket Landing Problem}
 \author{\IEEEauthorblockN{ Sebastiano Zuddas}
 \IEEEauthorblockA{\textit{dept. Automatic Control \& Systems Engineering} \\
 \textit{University of Sheffield}\\
@@ -37,23 +36,109 @@ component, formatting, style, styling, insert
 \end{IEEEkeywords}
 
 \section{Introduction}
-This document is a model and instructions for \LaTeX.
-Please observe the conference page limits. 
+The objective of the assignment is to implement a model-predictive control (MPC) scheme to land a simplified model of a rocket. 
+The problem is fundamentally one of 'controllability', ie $x(0) = x_s \rightarrow x(t_f) = 0$. 
+The assignment gives an abstracted model, we start by rewriting the model as follows:
+
+\begin{equation}
+    \begin{bmatrix}
+        r_x(k+1)\\
+        r_y(k+1)\\
+        r_z(k+1)\\
+        v_x(k+1)\\
+        v_y(k+1)\\
+        v_z(k+1)\\
+    \end{bmatrix}
+    =
+    \begin{bmatrix}
+       1 & 0 & 0 & T & 0 & 0\\
+       0 & 1 & 0 & 0 & T & 0\\
+       0 & 0 & 1 & 0 & 0 & T\\
+       0 & 0 & 0 & 1 & 0 & 0\\
+       0 & 0 & 0 & 0 & 1 & 0\\
+       0 & 0 & 0 & 0 & 0 & 1
+    \end{bmatrix}
+    \begin{bmatrix}
+        r_x(k)\\
+        r_y(k)\\
+        r_z(k)\\
+        v_x(k)\\
+        v_y(k)\\
+        v_z(k)\\
+    \end{bmatrix}
+    +
+    \hspace*{2cm}
+
+    \begin{pmatrix}
+        \frac{T^2}{2m} & 0 & 0\\
+        0 & \frac{T^2}{2m} & 0\\
+        0 & 0 & \frac{T^2}{2m}\\
+        T & 0 & 0\\
+        0 & T & 0\\
+        0 & 0 & T
+    \end{pmatrix}
+    \begin{bmatrix}
+        f_x(k)+w_x\\
+        f_y(k)+w_y\\
+        f_z(k)-mg\\
+    \end{bmatrix}
 
 
-Test 
+    \label{eq:1}
+\end{equation}
 
-test
-\includemedia[
-  width=0.8\linewidth, % Set the width of the video
-  height=0.45\linewidth, % Set the height of the video
-  activate=pageopen, % Start playing the video when the page is opened
-  deactivate=pageclose, % Stop playing the video when the page is closed
-  addresource={Figures/Rocket_landing_animation.mp4}, % Specify the path to the video file
-  flashvars={
-    source={Figures/Rocket_landing_animation.mp4} % Specify the path to the video file again (same as in addresource)
-  }
-]{}{VPlayer.swf}
+%The objective is to find the optimal control input $f_x(k), f_y(k), f_z(k)$ such that the state $x(k)$ converges to $x(t_f)=\vec{0}$ in finite time $t_f$.
+Although we assume the system is reachable, it is important to check for controllability. 
+Through MATLAB: \verb|Rank = rank(ctrb(A, B))| we find the system is controllable, and we can proceed with designing a controller. 
+
+\section{Design}
+\subsection{Controller Design}
+Three separate controllers are considered in this report. 
+The first controller is an unconstrained, two stage MPC. The second controller builds on the first, and introduces both state and input constraints. The third controller further builds on the first two, introducing disturbance rejection.
+We start by looking at the first controller. 
+\subsubsection{Unconstrained}
+
+\subsubsection{Constrained}
+
+\subsubsection{Disturbance Rejection}
+
+
+\subsection{Experiment Setup}
+First, it is important to state simplifications for 
+Let the starting parameters be as follows:
+\[
+    
+    \begin{bmatrix}
+        r_x(0)\\
+        r_y(0)\\
+        r_z(0)\\
+        v_x(0)\\
+        v_y(0)\\
+        v_z(0)\\
+    \end{bmatrix}
+    =
+    \begin{bmatrix}
+        600\\
+        600\\
+        500\\
+        5\\
+        5\\
+        -15\\
+    \end{bmatrix}
+    \land
+    f_x(0)=f_y(0)=f_z(0)=0
+
+\]
+
+These starting conditions are the limits of what the assignment permits, i.e a maximum starting altitide of 500m, and a maximum lateral distance of 600m.
+
+
+\section{Results}
+
+\section{Analysis \& Discussion}
+
+\section{Conclusion}
+
 
 \newpage
 
