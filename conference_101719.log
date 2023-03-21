@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2023.3.19)  21 MAR 2023 16:17
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2023.3.19)  21 MAR 2023 18:28
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -104,62 +104,171 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <24> not available
 \@IEEEtranrubishbin=\box51
 )
 ** ATTENTION: Overriding command lockouts (line 3).
-(/usr/local/texlive/2022/texmf-dist/tex/latex/cite/cite.sty
-LaTeX Info: Redefining \cite on input line 302.
-LaTeX Info: Redefining \nocite on input line 332.
-Package: cite 2015/02/27  v 5.5
+(/usr/local/texlive/2022/texmf-dist/tex/latex/hyperref/hyperref.sty
+Package: hyperref 2022-02-21 v7.00n Hypertext links for LaTeX
+ (/usr/local/texlive/2022/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty
+Package: ltxcmds 2020-05-10 v1.25 LaTeX kernel commands for general use (HO)
+) (/usr/local/texlive/2022/texmf-dist/tex/generic/iftex/iftex.sty
+Package: iftex 2022/02/03 v1.0f TeX engine tests
+) (/usr/local/texlive/2022/texmf-dist/tex/generic/pdftexcmds/pdftexcmds.sty
+Package: pdftexcmds 2020-06-27 v0.33 Utility functions of pdfTeX for LuaTeX (HO)
+ (/usr/local/texlive/2022/texmf-dist/tex/generic/infwarerr/infwarerr.sty
+Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
+)
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+) (/usr/local/texlive/2022/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks17
+) (/usr/local/texlive/2022/texmf-dist/tex/generic/kvsetkeys/kvsetkeys.sty
+Package: kvsetkeys 2019/12/15 v1.18 Key value parser (HO)
+) (/usr/local/texlive/2022/texmf-dist/tex/generic/kvdefinekeys/kvdefinekeys.sty
+Package: kvdefinekeys 2019-12-19 v1.6 Define keys (HO)
+) (/usr/local/texlive/2022/texmf-dist/tex/generic/pdfescape/pdfescape.sty
+Package: pdfescape 2019/12/09 v1.15 Implements pdfTeX's escape features (HO)
+) (/usr/local/texlive/2022/texmf-dist/tex/latex/hycolor/hycolor.sty
+Package: hycolor 2020-01-27 v1.10 Color options for hyperref/bookmark (HO)
+) (/usr/local/texlive/2022/texmf-dist/tex/latex/letltxmacro/letltxmacro.sty
+Package: letltxmacro 2019/12/03 v1.6 Let assignment for LaTeX macros (HO)
+) (/usr/local/texlive/2022/texmf-dist/tex/latex/auxhook/auxhook.sty
+Package: auxhook 2019-12-17 v1.6 Hooks for auxiliary files (HO)
+) (/usr/local/texlive/2022/texmf-dist/tex/latex/kvoptions/kvoptions.sty
+Package: kvoptions 2020-10-07 v3.14 Key value format for package options (HO)
+)
+\@linkdim=\dimen162
+\Hy@linkcounter=\count266
+\Hy@pagecounter=\count267
+ (/usr/local/texlive/2022/texmf-dist/tex/latex/hyperref/pd1enc.def
+File: pd1enc.def 2022-02-21 v7.00n Hyperref: PDFDocEncoding definition (HO)
+Now handling font encoding PD1 ...
+... no UTF-8 mapping file for font encoding PD1
+) (/usr/local/texlive/2022/texmf-dist/tex/generic/intcalc/intcalc.sty
+Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
+) (/usr/local/texlive/2022/texmf-dist/tex/generic/etexcmds/etexcmds.sty
+Package: etexcmds 2019/12/15 v1.7 Avoid name clashes with e-TeX commands (HO)
+)
+\Hy@SavedSpaceFactor=\count268
+ (/usr/local/texlive/2022/texmf-dist/tex/latex/hyperref/puenc.def
+File: puenc.def 2022-02-21 v7.00n Hyperref: PDF Unicode definition (HO)
+Now handling font encoding PU ...
+... no UTF-8 mapping file for font encoding PU
+)
+Package hyperref Info: Option `colorlinks' set `true' on input line 4018.
+Package hyperref Info: Hyper figures OFF on input line 4137.
+Package hyperref Info: Link nesting OFF on input line 4142.
+Package hyperref Info: Hyper index ON on input line 4145.
+Package hyperref Info: Plain pages OFF on input line 4152.
+Package hyperref Info: Backreferencing OFF on input line 4157.
+Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
+Package hyperref Info: Bookmarks ON on input line 4390.
+\c@Hy@tempcnt=\count269
+ (/usr/local/texlive/2022/texmf-dist/tex/latex/url/url.sty
+\Urlmuskip=\muskip16
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+)
+LaTeX Info: Redefining \url on input line 4749.
+\XeTeXLinkMargin=\dimen163
+ (/usr/local/texlive/2022/texmf-dist/tex/generic/bitset/bitset.sty
+Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
+ (/usr/local/texlive/2022/texmf-dist/tex/generic/bigintcalc/bigintcalc.sty
+Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO)
+))
+\Fld@menulength=\count270
+\Field@Width=\dimen164
+\Fld@charsize=\dimen165
+Package hyperref Info: Hyper figures OFF on input line 6027.
+Package hyperref Info: Link nesting OFF on input line 6032.
+Package hyperref Info: Hyper index ON on input line 6035.
+Package hyperref Info: backreferencing OFF on input line 6042.
+Package hyperref Info: Link coloring ON on input line 6045.
+Package hyperref Info: Link coloring with OCG OFF on input line 6052.
+Package hyperref Info: PDF/A mode OFF on input line 6057.
+LaTeX Info: Redefining \ref on input line 6097.
+LaTeX Info: Redefining \pageref on input line 6101.
+ (/usr/local/texlive/2022/texmf-dist/tex/latex/base/atbegshi-ltx.sty
+Package: atbegshi-ltx 2021/01/10 v1.0c Emulation of the original atbegshi
+package with kernel methods
+)
+\Hy@abspage=\count271
+\c@Item=\count272
+\c@Hfootnote=\count273
+)
+Package hyperref Info: Driver (autodetected): hpdftex.
+ (/usr/local/texlive/2022/texmf-dist/tex/latex/hyperref/hpdftex.def
+File: hpdftex.def 2022-02-21 v7.00n Hyperref driver for pdfTeX
+ (/usr/local/texlive/2022/texmf-dist/tex/latex/base/atveryend-ltx.sty
+Package: atveryend-ltx 2020/08/19 v1.0a Emulation of the original atveryend package
+with kernel methods
+)
+\Fld@listcount=\count274
+\c@bookmark@seq@number=\count275
+ (/usr/local/texlive/2022/texmf-dist/tex/latex/rerunfilecheck/rerunfilecheck.sty
+Package: rerunfilecheck 2019/12/05 v1.9 Rerun checks for auxiliary files (HO)
+ (/usr/local/texlive/2022/texmf-dist/tex/generic/uniquecounter/uniquecounter.sty
+Package: uniquecounter 2019/12/15 v1.4 Provide unlimited unique counter (HO)
+)
+Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 286.
+)
+\Hy@SectionHShift=\skip50
+) (/usr/local/texlive/2022/texmf-dist/tex/latex/natbib/natbib.sty
+Package: natbib 2010/09/13 8.31b (PWD, AO)
+\bibhang=\skip51
+\bibsep=\skip52
+LaTeX Info: Redefining \cite on input line 694.
+\c@NAT@ctr=\count276
 ) (/usr/local/texlive/2022/texmf-dist/tex/latex/amsmath/amsmath.sty
 Package: amsmath 2021/10/15 v2.17l AMS math features
-\@mathmargin=\skip50
+\@mathmargin=\skip53
 
 For additional information on amsmath, use the `?' option.
 (/usr/local/texlive/2022/texmf-dist/tex/latex/amsmath/amstext.sty
 Package: amstext 2021/08/26 v2.01 AMS text
  (/usr/local/texlive/2022/texmf-dist/tex/latex/amsmath/amsgen.sty
 File: amsgen.sty 1999/11/30 v2.0 generic functions
-\@emptytoks=\toks17
-\ex@=\dimen162
+\@emptytoks=\toks18
+\ex@=\dimen166
 )) (/usr/local/texlive/2022/texmf-dist/tex/latex/amsmath/amsbsy.sty
 Package: amsbsy 1999/11/29 v1.2d Bold Symbols
-\pmbraise@=\dimen163
+\pmbraise@=\dimen167
 ) (/usr/local/texlive/2022/texmf-dist/tex/latex/amsmath/amsopn.sty
 Package: amsopn 2021/08/26 v2.02 operator names
 )
-\inf@bad=\count266
+\inf@bad=\count277
 LaTeX Info: Redefining \frac on input line 234.
-\uproot@=\count267
-\leftroot@=\count268
+\uproot@=\count278
+\leftroot@=\count279
 LaTeX Info: Redefining \overline on input line 399.
-\classnum@=\count269
-\DOTSCASE@=\count270
+\classnum@=\count280
+\DOTSCASE@=\count281
 LaTeX Info: Redefining \ldots on input line 496.
 LaTeX Info: Redefining \dots on input line 499.
 LaTeX Info: Redefining \cdots on input line 620.
 \Mathstrutbox@=\box52
 \strutbox@=\box53
-\big@size=\dimen164
+\big@size=\dimen168
 LaTeX Font Info:    Redeclaring font encoding OML on input line 743.
 LaTeX Font Info:    Redeclaring font encoding OMS on input line 744.
-\macc@depth=\count271
-\c@MaxMatrixCols=\count272
-\dotsspace@=\muskip16
-\c@parentequation=\count273
-\dspbrk@lvl=\count274
-\tag@help=\toks18
-\row@=\count275
-\column@=\count276
-\maxfields@=\count277
-\andhelp@=\toks19
-\eqnshift@=\dimen165
-\alignsep@=\dimen166
-\tagshift@=\dimen167
-\tagwidth@=\dimen168
-\totwidth@=\dimen169
-\lineht@=\dimen170
-\@envbody=\toks20
-\multlinegap=\skip51
-\multlinetaggap=\skip52
-\mathdisplay@stack=\toks21
+\macc@depth=\count282
+\c@MaxMatrixCols=\count283
+\dotsspace@=\muskip17
+\c@parentequation=\count284
+\dspbrk@lvl=\count285
+\tag@help=\toks19
+\row@=\count286
+\column@=\count287
+\maxfields@=\count288
+\andhelp@=\toks20
+\eqnshift@=\dimen169
+\alignsep@=\dimen170
+\tagshift@=\dimen171
+\tagwidth@=\dimen172
+\totwidth@=\dimen173
+\lineht@=\dimen174
+\@envbody=\toks21
+\multlinegap=\skip54
+\multlinetaggap=\skip55
+\mathdisplay@stack=\toks22
 LaTeX Info: Redefining \[ on input line 2938.
 LaTeX Info: Redefining \] on input line 2939.
 ) (/usr/local/texlive/2022/texmf-dist/tex/latex/amsfonts/amssymb.sty
@@ -175,16 +284,13 @@ LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
 Package: algorithmic 2009/08/24 v0.1 Document Style `algorithmic'
  (/usr/local/texlive/2022/texmf-dist/tex/latex/base/ifthen.sty
 Package: ifthen 2020/11/24 v1.1c Standard LaTeX ifthen package (DPC)
-) (/usr/local/texlive/2022/texmf-dist/tex/latex/graphics/keyval.sty
-Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
-\KV@toks@=\toks22
 )
-\c@ALC@unique=\count278
-\c@ALC@line=\count279
-\c@ALC@rem=\count280
-\c@ALC@depth=\count281
-\ALC@tlm=\skip53
-\algorithmicindent=\skip54
+\c@ALC@unique=\count289
+\c@ALC@line=\count290
+\c@ALC@rem=\count291
+\c@ALC@depth=\count292
+\ALC@tlm=\skip56
+\algorithmicindent=\skip57
 ) (/usr/local/texlive/2022/texmf-dist/tex/latex/graphics/graphicx.sty
 Package: graphicx 2021/09/16 v1.2d Enhanced LaTeX Graphics (DPC,SPQR)
  (/usr/local/texlive/2022/texmf-dist/tex/latex/graphics/graphics.sty
@@ -198,8 +304,8 @@ Package graphics Info: Driver file: pdftex.def on input line 107.
  (/usr/local/texlive/2022/texmf-dist/tex/latex/graphics-def/pdftex.def
 File: pdftex.def 2020/10/05 v1.2a Graphics/color driver for pdftex
 ))
-\Gin@req@height=\dimen171
-\Gin@req@width=\dimen172
+\Gin@req@height=\dimen175
+\Gin@req@width=\dimen176
 ) (/usr/local/texlive/2022/texmf-dist/tex/latex/base/textcomp.sty
 Package: textcomp 2020/02/02 v2.0n Standard LaTeX package
 ) (/usr/local/texlive/2022/texmf-dist/tex/latex/xcolor/xcolor.sty
@@ -221,64 +327,84 @@ Package xcolor Info: Model `wave' substituted by `hsb' on input line 1375.
 Package: expl3 2022-02-24 L3 programming layer (loader) 
  (/usr/local/texlive/2022/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
 File: l3backend-pdftex.def 2022-02-07 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count282
+\l__color_backend_stack_int=\count293
 \l__pdf_internal_box=\box54
 ))
 Package: l3keys2e 2022-01-12 LaTeX2e option processing using LaTeX3 keys
 )
 Package: media9 2022/03/18 v1.24 acrobat-9/X compatible media
-\g_mix_pkgresizeflag_int=\count283
+\g_mix_pkgresizeflag_int=\count294
  (/usr/local/texlive/2022/texmf-dist/tex/latex/media9/pdfbase.sty
 Package: pdfbase 2022/03/18 v0.54 driver independent access to low-level PDF features
-\g_pbs_page_int=\count284
-\g_pbs_oc_int=\count285
+\g_pbs_page_int=\count295
+\g_pbs_oc_int=\count296
 ) (/usr/local/texlive/2022/texmf-dist/tex/latex/ocgx2/ocgbase.sty
 Package: ocgbase 2021/06/11 v0.20 support package for ocgx2.sty
-\g_ocgbase_nd_int=\count286
+\g_ocgbase_nd_int=\count297
 )
 \l_mix_poster_box=\box55
-\g_mix_wd_dim=\dimen173
-\g_mix_ht_dim=\dimen174
-\g_mix_dp_dim=\dimen175
-\g_mix_rmcnt_int=\count287
-\l_mix_viewcnt_int=\count288
-\g@mix@page@int=\count289
-\g_mix_resizeflag_int=\count290
-\l_mix_lineno_int=\count291
+\g_mix_wd_dim=\dimen177
+\g_mix_ht_dim=\dimen178
+\g_mix_dp_dim=\dimen179
+\g_mix_rmcnt_int=\count298
+\l_mix_viewcnt_int=\count299
+\g@mix@page@int=\count300
+\g_mix_resizeflag_int=\count301
+\l_mix_lineno_int=\count302
 \l_mix_pbtn_box=\box56
-\g_mix_mbtncnt_int=\count292
-\mix@btn@dim=\dimen176
+\g_mix_mbtncnt_int=\count303
+\mix@btn@dim=\dimen180
 )
 No file conference_101719.aux.
 \openout1 = `conference_101719.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 15.
-LaTeX Font Info:    ... okay on input line 15.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 15.
-LaTeX Font Info:    ... okay on input line 15.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 15.
-LaTeX Font Info:    ... okay on input line 15.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 15.
-LaTeX Font Info:    ... okay on input line 15.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 15.
-LaTeX Font Info:    ... okay on input line 15.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 15.
-LaTeX Font Info:    ... okay on input line 15.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 15.
-LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 18.
+LaTeX Font Info:    ... okay on input line 18.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 18.
+LaTeX Font Info:    ... okay on input line 18.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 18.
+LaTeX Font Info:    ... okay on input line 18.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 18.
+LaTeX Font Info:    ... okay on input line 18.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 18.
+LaTeX Font Info:    ... okay on input line 18.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 18.
+LaTeX Font Info:    ... okay on input line 18.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 18.
+LaTeX Font Info:    ... okay on input line 18.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 18.
+LaTeX Font Info:    ... okay on input line 18.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 18.
+LaTeX Font Info:    ... okay on input line 18.
 -- Lines per column: 56 (exact).
-(/usr/local/texlive/2022/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+Package hyperref Info: Link coloring ON on input line 18.
+(/usr/local/texlive/2022/texmf-dist/tex/latex/hyperref/nameref.sty
+Package: nameref 2021-04-02 v2.47 Cross-referencing by name of section
+ (/usr/local/texlive/2022/texmf-dist/tex/latex/refcount/refcount.sty
+Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
+) (/usr/local/texlive/2022/texmf-dist/tex/generic/gettitlestring/gettitlestring.sty
+Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
+)
+\c@section@level=\count304
+)
+LaTeX Info: Redefining \ref on input line 18.
+LaTeX Info: Redefining \pageref on input line 18.
+LaTeX Info: Redefining \nameref on input line 18.
+\@outlinefile=\write3
+\openout3 = `conference_101719.out'.
+
+ (/usr/local/texlive/2022/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count293
-\scratchdimen=\dimen177
+\scratchcounter=\count305
+\scratchdimen=\dimen181
 \scratchbox=\box57
-\nofMPsegments=\count294
-\nofMParguments=\count295
+\nofMPsegments=\count306
+\nofMParguments=\count307
 \everyMPshowfont=\toks23
-\MPscratchCnt=\count296
-\MPscratchDim=\dimen178
-\MPnumerator=\count297
-\makeMPintoPDFobject=\count298
+\MPscratchCnt=\count308
+\MPscratchDim=\dimen182
+\MPnumerator=\count309
+\makeMPintoPDFobject=\count310
 \everyMPtoPDFconversion=\toks24
 ) (/usr/local/texlive/2022/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
@@ -286,47 +412,47 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 48
  (/usr/local/texlive/2022/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
 ))
-LaTeX Font Info:    Trying to load font information for U+msa on input line 29.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 32.
  (/usr/local/texlive/2022/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 29.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 32.
  (/usr/local/texlive/2022/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-/Users/sebastianozuddas/Programming/Latex/ACS6116---Rocket-Landing-MPC-/conference_101719.tex:71: Missing $ inserted.
+/Users/sebastianozuddas/Programming/Latex/ACS6116---Rocket-Landing-MPC-/conference_101719.tex:74: Missing $ inserted.
 <inserted text> 
                 $
-l.71 
+l.74 
      
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
-/Users/sebastianozuddas/Programming/Latex/ACS6116---Rocket-Landing-MPC-/conference_101719.tex:71: Display math should end with $$.
+/Users/sebastianozuddas/Programming/Latex/ACS6116---Rocket-Landing-MPC-/conference_101719.tex:74: Display math should end with $$.
 <to be read again> 
                    \tex_par:D 
-l.71 
+l.74 
      
 The `$' that I just saw supposedly matches a previous `$$'.
 So I shall assume that you typed `$$' both times.
 
 
-Overfull \hbox (19.63126pt too wide) detected at line 71
-[][] \OT1/cmr/m/n/10 = [] [] +| 
+Overfull \hbox (19.63126pt too wide) detected at line 74
+[][][] \OT1/cmr/m/n/10 = [] [] +| 
  []
 
-/Users/sebastianozuddas/Programming/Latex/ACS6116---Rocket-Landing-MPC-/conference_101719.tex:72: Missing $ inserted.
+/Users/sebastianozuddas/Programming/Latex/ACS6116---Rocket-Landing-MPC-/conference_101719.tex:75: Missing $ inserted.
 <inserted text> 
                 $
-l.72     \begin{pmatrix}
+l.75     \begin{pmatrix}
                         
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
-/Users/sebastianozuddas/Programming/Latex/ACS6116---Rocket-Landing-MPC-/conference_101719.tex:79: Missing $ inserted.
+/Users/sebastianozuddas/Programming/Latex/ACS6116---Rocket-Landing-MPC-/conference_101719.tex:82: Missing $ inserted.
 <inserted text> 
                 $
-l.79     \end{pmatrix}
+l.82     \end{pmatrix}
                       
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -334,18 +460,18 @@ With luck, this will get me unwedged. But if you
 really didn't forget anything, try typing `2' now; then
 my insertion and my current dilemma will both disappear.
 
-/Users/sebastianozuddas/Programming/Latex/ACS6116---Rocket-Landing-MPC-/conference_101719.tex:80: Missing $ inserted.
+/Users/sebastianozuddas/Programming/Latex/ACS6116---Rocket-Landing-MPC-/conference_101719.tex:83: Missing $ inserted.
 <inserted text> 
                 $
-l.80     \begin{bmatrix}
+l.83     \begin{bmatrix}
                         
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
-/Users/sebastianozuddas/Programming/Latex/ACS6116---Rocket-Landing-MPC-/conference_101719.tex:84: Missing $ inserted.
+/Users/sebastianozuddas/Programming/Latex/ACS6116---Rocket-Landing-MPC-/conference_101719.tex:87: Missing $ inserted.
 <inserted text> 
                 $
-l.84     \end{bmatrix}
+l.87     \end{bmatrix}
                       
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -354,32 +480,32 @@ really didn't forget anything, try typing `2' now; then
 my insertion and my current dilemma will both disappear.
 
 
-/Users/sebastianozuddas/Programming/Latex/ACS6116---Rocket-Landing-MPC-/conference_101719.tex:88: LaTeX Error: Bad math environment delimiter.
+/Users/sebastianozuddas/Programming/Latex/ACS6116---Rocket-Landing-MPC-/conference_101719.tex:91: LaTeX Error: Bad math environment delimiter.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.88 \end{equation}
+l.91 \end{equation}
                    
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-/Users/sebastianozuddas/Programming/Latex/ACS6116---Rocket-Landing-MPC-/conference_101719.tex:88: You can't use `\eqno' in vertical mode.
+/Users/sebastianozuddas/Programming/Latex/ACS6116---Rocket-Landing-MPC-/conference_101719.tex:91: You can't use `\eqno' in vertical mode.
 \endmathdisplay@a ...\df@tag \@empty \else \veqno 
                                                   \alt@tag \df@tag \fi \ifx ...
-l.88 \end{equation}
+l.91 \end{equation}
                    
 Sorry, but I'm not programmed to handle this case;
 I'll just pretend that you didn't ask for it.
 If you're in the wrong mode, you might be able to
 return to the right one by typing `I}' or `I$' or `I\par'.
 
-/Users/sebastianozuddas/Programming/Latex/ACS6116---Rocket-Landing-MPC-/conference_101719.tex:88: Missing $ inserted.
+/Users/sebastianozuddas/Programming/Latex/ACS6116---Rocket-Landing-MPC-/conference_101719.tex:91: Missing $ inserted.
 <inserted text> 
                 $
-l.88 \end{equation}
+l.91 \end{equation}
                    
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -387,50 +513,50 @@ With luck, this will get me unwedged. But if you
 really didn't forget anything, try typing `2' now; then
 my insertion and my current dilemma will both disappear.
 
-/Users/sebastianozuddas/Programming/Latex/ACS6116---Rocket-Landing-MPC-/conference_101719.tex:88: Display math should end with $$.
+/Users/sebastianozuddas/Programming/Latex/ACS6116---Rocket-Landing-MPC-/conference_101719.tex:91: Display math should end with $$.
 <to be read again> 
                    \endgroup 
-l.88 \end{equation}
+l.91 \end{equation}
                    
 The `$' that I just saw supposedly matches a previous `$$'.
 So I shall assume that you typed `$$' both times.
 
-LaTeX Font Info:    Trying to load font information for OT1+pcr on input line 92.
+LaTeX Font Info:    Trying to load font information for OT1+pcr on input line 95.
 (/usr/local/texlive/2022/texmf-dist/tex/latex/psnfss/ot1pcr.fd
 File: ot1pcr.fd 2001/06/04 font definitions for OT1/pcr.
 )
-Underfull \hbox (badness 1681) in paragraph at lines 91--93
+Underfull \hbox (badness 1681) in paragraph at lines 94--96
 \OT1/ptm/m/n/10 por-tant to check for con-trol-la-bil-ity. Through MAT-LAB:
  []
 
-/Users/sebastianozuddas/Programming/Latex/ACS6116---Rocket-Landing-MPC-/conference_101719.tex:135: Missing $ inserted.
+/Users/sebastianozuddas/Programming/Latex/ACS6116---Rocket-Landing-MPC-/conference_101719.tex:138: Missing $ inserted.
 <inserted text> 
                 $
-l.135 
+l.138 
       
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
-/Users/sebastianozuddas/Programming/Latex/ACS6116---Rocket-Landing-MPC-/conference_101719.tex:135: Display math should end with $$.
+/Users/sebastianozuddas/Programming/Latex/ACS6116---Rocket-Landing-MPC-/conference_101719.tex:138: Display math should end with $$.
 <to be read again> 
                    \tex_par:D 
-l.135 
+l.138 
       
 The `$' that I just saw supposedly matches a previous `$$'.
 So I shall assume that you typed `$$' both times.
 
-/Users/sebastianozuddas/Programming/Latex/ACS6116---Rocket-Landing-MPC-/conference_101719.tex:136: Missing $ inserted.
+/Users/sebastianozuddas/Programming/Latex/ACS6116---Rocket-Landing-MPC-/conference_101719.tex:139: Missing $ inserted.
 <inserted text> 
                 $
-l.136 \begin{bmatrix}
+l.139 \begin{bmatrix}
                      
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
-/Users/sebastianozuddas/Programming/Latex/ACS6116---Rocket-Landing-MPC-/conference_101719.tex:143: Missing $ inserted.
+/Users/sebastianozuddas/Programming/Latex/ACS6116---Rocket-Landing-MPC-/conference_101719.tex:146: Missing $ inserted.
 <inserted text> 
                 $
-l.143     \end{bmatrix}
+l.146     \end{bmatrix}
                        
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -438,58 +564,58 @@ With luck, this will get me unwedged. But if you
 really didn't forget anything, try typing `2' now; then
 my insertion and my current dilemma will both disappear.
 
-/Users/sebastianozuddas/Programming/Latex/ACS6116---Rocket-Landing-MPC-/conference_101719.tex:145: Missing $ inserted.
+/Users/sebastianozuddas/Programming/Latex/ACS6116---Rocket-Landing-MPC-/conference_101719.tex:148: Missing $ inserted.
 <inserted text> 
                 $
-l.145     \begin{bmatrix}
+l.148     \begin{bmatrix}
                          
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-/Users/sebastianozuddas/Programming/Latex/ACS6116---Rocket-Landing-MPC-/conference_101719.tex:152: Missing $ inserted.
-<inserted text> 
-                $
-l.152     \end{bmatrix}
-                       
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-/Users/sebastianozuddas/Programming/Latex/ACS6116---Rocket-Landing-MPC-/conference_101719.tex:153: Missing $ inserted.
-<inserted text> 
-                $
-l.153     \land
-               
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
 /Users/sebastianozuddas/Programming/Latex/ACS6116---Rocket-Landing-MPC-/conference_101719.tex:155: Missing $ inserted.
 <inserted text> 
                 $
-l.155 
+l.155     \end{bmatrix}
+                       
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+/Users/sebastianozuddas/Programming/Latex/ACS6116---Rocket-Landing-MPC-/conference_101719.tex:156: Missing $ inserted.
+<inserted text> 
+                $
+l.156     \land
+               
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+/Users/sebastianozuddas/Programming/Latex/ACS6116---Rocket-Landing-MPC-/conference_101719.tex:158: Missing $ inserted.
+<inserted text> 
+                $
+l.158 
       
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
 
-/Users/sebastianozuddas/Programming/Latex/ACS6116---Rocket-Landing-MPC-/conference_101719.tex:156: LaTeX Error: Bad math environment delimiter.
+/Users/sebastianozuddas/Programming/Latex/ACS6116---Rocket-Landing-MPC-/conference_101719.tex:159: LaTeX Error: Bad math environment delimiter.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.156 \]
+l.159 \]
         
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-/Users/sebastianozuddas/Programming/Latex/ACS6116---Rocket-Landing-MPC-/conference_101719.tex:156: Missing $ inserted.
+/Users/sebastianozuddas/Programming/Latex/ACS6116---Rocket-Landing-MPC-/conference_101719.tex:159: Missing $ inserted.
 <inserted text> 
                 $
-l.156 \]
+l.159 \]
         
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -497,10 +623,10 @@ With luck, this will get me unwedged. But if you
 really didn't forget anything, try typing `2' now; then
 my insertion and my current dilemma will both disappear.
 
-/Users/sebastianozuddas/Programming/Latex/ACS6116---Rocket-Landing-MPC-/conference_101719.tex:156: Display math should end with $$.
+/Users/sebastianozuddas/Programming/Latex/ACS6116---Rocket-Landing-MPC-/conference_101719.tex:159: Display math should end with $$.
 <to be read again> 
                    \endgroup 
-l.156 \]
+l.159 \]
         
 The `$' that I just saw supposedly matches a previous `$$'.
 So I shall assume that you typed `$$' both times.
@@ -510,69 +636,49 @@ So I shall assume that you typed `$$' both times.
 
 ]
 
-LaTeX Warning: Reference `AA' on page 2 undefined on input line 187.
+LaTeX Warning: Reference `AA' on page 2 undefined on input line 190.
 
 
-LaTeX Warning: Reference `SCM' on page 2 undefined on input line 187.
+LaTeX Warning: Reference `SCM' on page 2 undefined on input line 190.
 
 
-LaTeX Warning: Reference `eq' on page 2 undefined on input line 221.
+Package natbib Warning: Citation `handout' on page 2 undefined on input line 213.
 
 
-LaTeX Warning: Reference `eq' on page 2 undefined on input line 221.
+LaTeX Warning: Reference `eq' on page 2 undefined on input line 225.
 
 
-LaTeX Warning: Reference `eq' on page 2 undefined on input line 221.
+LaTeX Warning: Reference `eq' on page 2 undefined on input line 225.
 
 
-LaTeX Warning: Reference `eq' on page 2 undefined on input line 222.
+LaTeX Warning: Reference `eq' on page 2 undefined on input line 225.
+
+
+LaTeX Warning: Reference `eq' on page 2 undefined on input line 226.
 
 [2]
 
-LaTeX Warning: Citation `b7' on page 3 undefined on input line 275.
+Package natbib Warning: Citation `b7' on page 3 undefined on input line 279.
 
 
-LaTeX Warning: Reference `fig' on page 3 undefined on input line 311.
+LaTeX Warning: Reference `fig' on page 3 undefined on input line 315.
 
-<Figures/Constrained_input_plot.png, id=25, 562.2606pt x 421.575pt>
+<Figures/Constrained_input_plot.png, id=47, 562.2606pt x 421.575pt>
 File: Figures/Constrained_input_plot.png Graphic file (type png)
 <use Figures/Constrained_input_plot.png>
-Package pdftex.def Info: Figures/Constrained_input_plot.png  used on input line 331.
+Package pdftex.def Info: Figures/Constrained_input_plot.png  used on input line 335.
 (pdftex.def)             Requested size: 562.25923pt x 421.57396pt.
-LaTeX Font Info:    Trying to load font information for OMS+ptm on input line 342.
+LaTeX Font Info:    Trying to load font information for OMS+ptm on input line 346.
 (/usr/local/texlive/2022/texmf-dist/tex/latex/psnfss/omsptm.fd
 File: omsptm.fd 
 )
 LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <10> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 342.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 346.
  [3]
 
-LaTeX Warning: Citation `b1' on page 4 undefined on input line 355.
+Package natbib Warning: Citation `test' on page 4 undefined on input line 359.
 
-
-LaTeX Warning: Citation `b2' on page 4 undefined on input line 356.
-
-
-LaTeX Warning: Citation `b3' on page 4 undefined on input line 357.
-
-
-LaTeX Warning: Citation `b3' on page 4 undefined on input line 357.
-
-
-LaTeX Warning: Citation `b3' on page 4 undefined on input line 357.
-
-
-LaTeX Warning: Citation `b3' on page 4 undefined on input line 358.
-
-
-LaTeX Warning: Citation `b4' on page 4 undefined on input line 366.
-
-
-LaTeX Warning: Citation `b5' on page 4 undefined on input line 367.
-
-
-LaTeX Warning: Citation `b6' on page 4 undefined on input line 372.
-
+No file conference_101719.bbl.
 
 ** Conference Paper **
 Before submitting the final camera ready copy, remember to:
@@ -584,6 +690,9 @@ Before submitting the final camera ready copy, remember to:
  uses only Type 1 fonts and that every step in the generation
  process uses the appropriate paper size.
 
+
+Package natbib Warning: There were undefined citations.
+
 [4 <./Figures/Constrained_input_plot.png (PNG copy)>] (./conference_101719.aux)
 
 LaTeX Warning: There were undefined references.
@@ -591,20 +700,28 @@ LaTeX Warning: There were undefined references.
 
 LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
+
+Package rerunfilecheck Warning: File `conference_101719.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `conference_101719.out':
+(rerunfilecheck)             Before: <no file>
+(rerunfilecheck)             After:  2F52F30B569E242207CDB0289585E992;3070.
  ) 
 Here is how much of TeX's memory you used:
- 5264 strings out of 478268
- 92989 string characters out of 5846347
- 439740 words of memory out of 5000000
- 23408 multiletter control sequences out of 15000+600000
+ 12267 strings out of 478268
+ 202496 string characters out of 5846347
+ 558684 words of memory out of 5000000
+ 30276 multiletter control sequences out of 15000+600000
  514359 words of font info for 113 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 70i,11n,79p,660b,301s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 70i,11n,79p,660b,328s stack positions out of 10000i,1000n,20000p,200000b,200000s
 {/usr/local/texlive/2022/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/urw/courier/ucrr8a.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/urw/times/utmbi8a.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on conference_101719.pdf (4 pages, 205910 bytes).
+Output written on conference_101719.pdf (4 pages, 204583 bytes).
 PDF statistics:
- 98 PDF objects out of 1000 (max. 8388607)
- 60 compressed objects within 1 object stream
- 0 named destinations out of 1000 (max. 500000)
+ 140 PDF objects out of 1000 (max. 8388607)
+ 101 compressed objects within 2 object streams
+ 32 named destinations out of 1000 (max. 500000)
  6 words of extra memory for PDF output out of 10000 (max. 10000000)
 
