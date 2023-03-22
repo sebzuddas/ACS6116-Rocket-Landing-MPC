@@ -143,20 +143,21 @@ The horizon length $N$ was chosen to be 5 as it provided a spectral radius of 0.
 % discuss the various matrices and how they were made, what they represent. 
 \subsubsection{Constrained}
 The constrained controller builds on the unconstrained controller by introducing both state and input constraints. 
+The horizon length $N$ was chosen to be 25 for 
 The input constraints are chosen as follows:
 \[
     u_{max}
     \begin{bmatrix}
     f_z\cdot\tan{\theta}\\
     f_z\cdot\tan{\theta}\\
-    0
+    12
     \end{bmatrix}
     ;
     u_{min} = 
     \begin{bmatrix}
         -f_z\cdot\tan{\theta}\\
         -f_z\cdot\tan{\theta}\\
-        -12
+        0
     \end{bmatrix}
 \]  
 the input constraints given in the brief as $|f_x|, |f_y| \le f_z \tan{\theta} {}$
@@ -173,13 +174,12 @@ The angle $\theta$ is represents the maximum allowable angle of the rocket engin
   \draw[thick,->] (0,0,0) -- (0,0,1) node[above=-1]{$r_z$};
 
   % VECTORS
-  \draw[vector,red] (0, 0, 0)  -- (0, 0, -0.5) node[right] {$-f_z$};
+  \draw[vector,red] (0, 0, 0)  -- (0, 0, 0.5) node[right] {$f_z$};
 \end{tikzpicture}
 \caption{$f_z$ on the $z$ axis.} \label{tikz:axes}
 \end{figure}
 
-Figure \ref{tikz:axes} shows the justification for setting the $f_z$ constraint in the negative $z$ direction. 
-Since the rocket must exert thrust to decelerate, the $f_z$ input must be negative.
+Figure \ref{tikz:axes} shows how the z-axis thrust is exerted, helping visualise how $f_z$ acts on the rocket. 
 
 The state constraints are chosen as follows:
 \[
@@ -257,7 +257,7 @@ as such, $x_{ss};u_{ss}$ are given by:
 
         0
     \end{bmatrix}
-    
+
 \]
 
 
