@@ -236,22 +236,28 @@ where $E = B$ and $F=0$ since we ignore output disturbance, hence:
 \]
 
 It is now possible to formulate the $T$ matrix to find $x_{ss};u_{ss}$.
-Since no reference tracking is used, $C = 0$ obtaining $T$ as follows:
 \[
     T = 
     \begin{bmatrix}
         I-A & -B\\
+        C & 0
     \end{bmatrix}
 \]
-In this case, we have $p \gt m$ since we are not performing reference tracking. 
-
+In this case, we have $C \in \mathbb{R}^{6 \times 6} \land C \in \mathbb{R}^{6 \times 3} \therefore p < m \iff 3 < 6$ . 
+As such, we expect only some 
 as such, $x_{ss};u_{ss}$ are given by:
 \[
     \begin{bmatrix}
         x_{ss}(k)\\
         u_{ss}(k)
     \end{bmatrix}
-    =T^{-1}B\cdot \vec w(k)
+    =
+    \begin{bmatrix}
+        T^{-1}B\cdot \vec w(k)\\
+
+        0
+    \end{bmatrix}
+    
 \]
 
 
