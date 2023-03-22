@@ -1,10 +1,27 @@
 %!TEX root = main.tex
-\documentclass[conference]{IEEEtran}
+\documentclass[conference, tikz]{IEEEtran}
 \IEEEoverridecommandlockouts
 % The preceding line is only needed to identify funding in the first footnote. If that is unneeded, please comment it out.
-\usepackage[colorlinks=true, allcolors=blue]{hyperref}
-\usepackage[sort&compress]{natbib}
 
+\usepackage{physics}
+\usepackage{tikz}
+\usepackage{tikz-3dplot}
+\usepackage[outline]{contour} % glow around text
+\usepackage{xcolor}
+% Tikz styles
+\colorlet{veccol}{green!50!black}
+\colorlet{projcol}{blue!70!black}
+\colorlet{myblue}{blue!80!black}
+\colorlet{myred}{red!90!black}
+\colorlet{mydarkblue}{blue!50!black}
+\tikzset{>=latex} % for LaTeX arrow head
+\tikzstyle{proj}=[projcol!80,line width=0.08] %very thin
+\tikzstyle{area}=[draw=veccol,fill=veccol!80,fill opacity=0.6]
+\tikzstyle{vector}=[-stealth,myblue,thick,line cap=round]
+\tikzstyle{unit vector}=[->,veccol,thick,line cap=round]
+\tikzstyle{dark unit vector}=[unit vector,veccol!70!black]
+\usetikzlibrary{angles,quotes} % for pic (angle labels)
+\contourlength{1.3pt}
 
 \usepackage{amsmath,amssymb,amsfonts}
 \usepackage{algorithmic}
@@ -35,7 +52,7 @@ or Math in Paper Title or Abstract.
 \end{abstract}
 
 \begin{IEEEkeywords}
-component, formatting, style, styling, insert
+MPC, Rocket Landing, Model Predictive Control, Control Theory, Control Engineering
 \end{IEEEkeywords}
 
 \section{Introduction}
@@ -120,42 +137,99 @@ Similarly, the prioritisation of velocity represents the importance of landing a
 The lateral positions, ie $r_x$ and $r_y$, are given a lower priority than the vertical position, but a higher priority than the lateral velocity, $v_x$ and $v_y$.
 The reasoning behind this is that it is more important that the landing location is correct over the lateral velocities throughout the entire simulation. \\
 The $R$ matrix was chosen as to penalise the control inputs, $f_x$, $f_y$ and $f_z$, equally.
-The small value given to $R$, 0.1, represents the low cost associated with expending fuel to control the rocket, and encourages the rocket to use fuel to exercise control in all three directions equally. 
-
-\cite{}
-
-
-
+The small value given to $R$, 0.1, represents the low cost associated with expending fuel to control the rocket, and encourages the rocket to use fuel to exercise control in all three directions equally. Essentially, control is cheap. 
+The horizon length $N$ was chosen to be 5 as it provided a spectral radius of 0.5975, which is well within the stability region of the system.
+% discuss the various matrices and how they were made, what they represent. 
 \subsubsection{Constrained}
-
-\subsubsection{Disturbance Rejection}
-
-
-\subsection{Experiment Setup}
-First, it is important to state simplifications for 
-Let the starting parameters be as follows:
+The constrained controller builds on the unconstrained controller by introducing both state and input constraints. 
+The input constraints are chosen as follows:
 \[
-
-\begin{bmatrix}
-        r_x(0)\\
-        r_y(0)\\
-        r_z(0)\\
-        v_x(0)\\
-        v_y(0)\\
-        v_z(0)\\
+    u_{max}
+    \begin{bmatrix}
+    \frac{f_z}{\tan{\theta}}+50\\
+    \frac{f_z}{\tan{\theta}}+50\\
+    0
     \end{bmatrix}
-    =
+    ;
+    u_{min} = 
+    \begin{bmatrix}
+        -\frac{f_z}{\tan{\theta}}+50\\
+        -\frac{f_z}{\tan{\theta}}+50\\
+        -12
+    \end{bmatrix}
+\]  
+where $\theta = 30 ^\circ = 0.52\text{ rad}$. Theta is chosen as a constant as this is the maximum allowable angle of the rocket engines. 
+
+\begin{figure}[h]
+\centering
+\tdplotsetmaincoords{60}{110}
+\begin{tikzpicture}[scale=1,tdplot_main_coords]
+  % AXES
+  \coordinate (O) at (0,0,0);
+  \draw[thick,->] (0,0,0) -- (1,0,0) node[below left=-3]{$x$};
+  \draw[thick,->] (0,0,0) -- (0,1,0) node[right=-1]{$y$};
+  \draw[thick,->] (0,0,0) -- (0,0,1) node[above=-1]{$z$};
+
+  % VECTORS
+  \draw[vector,red] (0, 0, 0)  -- (0, 0, 0.5) node[right] {$-f_z$};
+\end{tikzpicture}
+\caption{$f_z$ on the $z$ axis.} \label{tik:axes}
+\end{figure}
+
+Figure \ref*{tik:axes} shows the justification for setting the $f_z$ constraint as negative, rather than positive. 
+
+The state constraints are chosen as follows:
+\[
+    x_{max} = 
     \begin{bmatrix}
         600\\
         600\\
         500\\
         5\\
         5\\
-        -15\\
+        0
     \end{bmatrix}
-    \land
-    f_x(0)=f_y(0)=f_z(0)=0
+    ;
+    x_{min} = 
+    \begin{bmatrix}
+        -600\\
+        -600\\
+        0\\
+        -5\\
+        -5\\
+        -15
+    \end{bmatrix}
+\]
 
+
+
+\subsubsection{Disturbance Rejection}
+
+
+\subsection{Experiment Setup}
+First, it is important to state simplifications assumed. 
+
+Let the starting parameters be as follows:
+\[
+    \begin{bmatrix}
+            r_x(0)\\
+            r_y(0)\\
+            r_z(0)\\
+            v_x(0)\\
+            v_y(0)\\
+            v_z(0)\\
+        \end{bmatrix}
+        =
+        \begin{bmatrix}
+            600\\
+            600\\
+            500\\
+            5\\
+            5\\
+            -15\\
+        \end{bmatrix}
+        \land
+        f_x(0)=f_y(0)=f_z(0)=0
 \]
 
 These starting conditions are the limits of what the assignment permits, i.e a maximum starting altitide of 500m, and a maximum lateral distance of 600m.
@@ -355,8 +429,6 @@ G.) thanks $\ldots$''. Instead, try ``R. B. G. thanks$\ldots$''. Put sponsor
 acknowledgments in the unnumbered footnote on the first page.
 
 
-
-According to the handout \cite{test}, ...
 
 \bibliographystyle{ieeetr} % Add the bibliography style
 \bibliography{references.bib}
