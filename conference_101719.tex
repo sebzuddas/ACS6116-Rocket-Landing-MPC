@@ -29,6 +29,7 @@
 \usepackage{textcomp}
 \usepackage{xcolor}
 \usepackage{media9}
+\usepackage{float}
 \def\BibTeX{{\rm B\kern-.05em{\sc i\kern-.025em b}\kern-.08em
     T\kern-.1667em\lower.7ex\hbox{E}\kern-.125emX}}
 
@@ -89,14 +90,14 @@ The assignment gives an abstracted model, we start by rewriting the model as fol
     +
     \hspace*{2cm}
 
-    \begin{pmatrix}
+    \begin{bmatrix}
         \frac{T^2}{2m} & 0 & 0\\
         0 & \frac{T^2}{2m} & 0\\
         0 & 0 & \frac{T^2}{2m}\\
         T & 0 & 0\\
         0 & T & 0\\
         0 & 0 & T
-    \end{pmatrix}
+    \end{bmatrix}
     \begin{bmatrix}
         f_x(k)+w_x\\
         f_y(k)+w_y\\
@@ -146,64 +147,112 @@ The input constraints are chosen as follows:
 \[
     u_{max}
     \begin{bmatrix}
-    \frac{f_z}{\tan{\theta}}+50\\
-    \frac{f_z}{\tan{\theta}}+50\\
+    f_z\cdot\tan{\theta}\\
+    f_z\cdot\tan{\theta}\\
     0
     \end{bmatrix}
     ;
     u_{min} = 
     \begin{bmatrix}
-        -\frac{f_z}{\tan{\theta}}+50\\
-        -\frac{f_z}{\tan{\theta}}+50\\
+        -f_z\cdot\tan{\theta}\\
+        -f_z\cdot\tan{\theta}\\
         -12
     \end{bmatrix}
 \]  
-where $\theta = 30 ^\circ = 0.52\text{ rad}$. Theta is chosen as a constant as this is the maximum allowable angle of the rocket engines. 
+the input constraints given in the brief as $|f_x|, |f_y| \le f_z \tan{\theta} {}$
+The angle $\theta$ is represents the maximum allowable angle of the rocket engines, and is chosen as $\theta = 10 ^\circ = 0.17\text{ rad}$.
 
-\begin{figure}[h]
+\begin{figure}[H]
 \centering
 \tdplotsetmaincoords{60}{110}
 \begin{tikzpicture}[scale=1,tdplot_main_coords]
   % AXES
   \coordinate (O) at (0,0,0);
-  \draw[thick,->] (0,0,0) -- (1,0,0) node[below left=-3]{$x$};
-  \draw[thick,->] (0,0,0) -- (0,1,0) node[right=-1]{$y$};
-  \draw[thick,->] (0,0,0) -- (0,0,1) node[above=-1]{$z$};
+  \draw[thick,->] (0,0,0) -- (1,0,0) node[below left=-3]{$r_x$};
+  \draw[thick,->] (0,0,0) -- (0,1,0) node[right=-1]{$r_y$};
+  \draw[thick,->] (0,0,0) -- (0,0,1) node[above=-1]{$r_z$};
 
   % VECTORS
-  \draw[vector,red] (0, 0, 0)  -- (0, 0, 0.5) node[right] {$-f_z$};
+  \draw[vector,red] (0, 0, 0)  -- (0, 0, -0.5) node[right] {$-f_z$};
 \end{tikzpicture}
-\caption{$f_z$ on the $z$ axis.} \label{tik:axes}
+\caption{$f_z$ on the $z$ axis.} \label{tikz:axes}
 \end{figure}
 
-Figure \ref*{tik:axes} shows the justification for setting the $f_z$ constraint as negative, rather than positive. 
+Figure \ref{tikz:axes} shows the justification for setting the $f_z$ constraint in the negative $z$ direction. 
+Since the rocket must exert thrust to decelerate, the $f_z$ input must be negative.
 
 The state constraints are chosen as follows:
 \[
     x_{max} = 
     \begin{bmatrix}
-        600\\
-        600\\
+        \frac{r_z}{\tan{\phi}}+50\\
+        \frac{r_z}{\tan{\phi}}+50\\
         500\\
-        5\\
-        5\\
-        0
+        20\\
+        20\\
+        15
     \end{bmatrix}
     ;
     x_{min} = 
     \begin{bmatrix}
-        -600\\
-        -600\\
+        -\frac{r_z}{\tan{\phi}}-50\\
+        -\frac{r_z}{\tan{\phi}}-50\\
         0\\
-        -5\\
-        -5\\
+        -20\\
+        -20\\
         -15
     \end{bmatrix}
 \]
-
-
+The $r_x \ r_y$ constraints were given in the brief as $|r_x|, |r_y| \le \frac{r_z}{\tan{\phi}}$.
+The angle $\phi$ represents the glide slope angle, and is chosen as a constant $\phi = 30^\circ = 0.52\text{ rad}$.
 
 \subsubsection{Disturbance Rejection}
+The disturbance rejection controller builds on both the unconstrained and constrained controllers. 
+Only wind disturbance is considered, and is modelled as a sinusoid as follows:
+\[
+    \vec{w}(k)
+    =
+    \begin{bmatrix}
+        \sin{\frac{50}{k}}\\
+        \cos{\frac{50}{k}}\\
+        0
+    \end{bmatrix}
+\]
+
+In terms of controller design, we start by rewriting equation \ref{eq:1} as follows:
+
+\[
+    \begin{cases}
+    x(k+1) = Ax(k) + Bu(k) + Ew(k)\\
+    y(k) = Cx(k) + Fd(k)
+    \end{cases}
+\]
+where $E = B$ and $F=0$ since we ignore output disturbance, hence:
+\[
+    \begin{cases}
+        x(k+1) = Ax(k) + B(u(k) + w(k))\\
+        y(k) = Cx(k)
+    \end{cases}
+\]
+
+It is now possible to formulate the $T$ matrix to find $x_{ss};u_{ss}$.
+Since no reference tracking is used, $C = 0$ obtaining $T$ as follows:
+\[
+    T = 
+    \begin{bmatrix}
+        I-A & -B\\
+    \end{bmatrix}
+\]
+In this case, we have $p \gt m$ since we are not performing reference tracking. 
+
+as such, $x_{ss};u_{ss}$ are given by:
+\[
+    \begin{bmatrix}
+        x_{ss}(k)\\
+        u_{ss}(k)
+    \end{bmatrix}
+    =T^{-1}B\cdot \vec w(k)
+\]
 
 
 \subsection{Experiment Setup}
@@ -211,14 +260,7 @@ First, it is important to state simplifications assumed.
 
 Let the starting parameters be as follows:
 \[
-    \begin{bmatrix}
-            r_x(0)\\
-            r_y(0)\\
-            r_z(0)\\
-            v_x(0)\\
-            v_y(0)\\
-            v_z(0)\\
-        \end{bmatrix}
+    \vec x(0)
         =
         \begin{bmatrix}
             600\\
@@ -229,7 +271,9 @@ Let the starting parameters be as follows:
             -15\\
         \end{bmatrix}
         \land
-        f_x(0)=f_y(0)=f_z(0)=0
+        \vec u(0)
+        = \vec 0
+        
 \]
 
 These starting conditions are the limits of what the assignment permits, i.e a maximum starting altitide of 500m, and a maximum lateral distance of 600m.
