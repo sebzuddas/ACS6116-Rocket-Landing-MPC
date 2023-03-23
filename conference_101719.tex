@@ -221,6 +221,8 @@ The input constraints given in the brief as $|f_x|, |f_y| \le f_z \tan{\theta}$ 
 \end{figure}
 
 Figure \ref{tikz:axes} provides a visualisation of how $f_z$ acts on the point mass. 
+Overall, this permits the implementation of Algorithm 6.1, pg. 102 from \cite{test}, since all the relevant optimal control and constraint matrices have been defined. 
+The constraint matrices are obtained in code through \verb|[Pc, qc, Sc] = constraint_mats(F, G, Pu, qu, Px, qx, Px, qx);|
 
 
 
