@@ -72,9 +72,9 @@ The assignment gives an abstracted model, we start by rewriting the model as fol
     \end{bmatrix}
     =
     \begin{bmatrix}
-       1 & 0 & 0 & T & 0 & 0\\
-       0 & 1 & 0 & 0 & T & 0\\
-       0 & 0 & 1 & 0 & 0 & T\\
+       1 & 0 & 0 & T_s & 0 & 0\\
+       0 & 1 & 0 & 0 & T_s & 0\\
+       0 & 0 & 1 & 0 & 0 & T_s\\
        0 & 0 & 0 & 1 & 0 & 0\\
        0 & 0 & 0 & 0 & 1 & 0\\
        0 & 0 & 0 & 0 & 0 & 1
@@ -91,12 +91,12 @@ The assignment gives an abstracted model, we start by rewriting the model as fol
     \hspace*{2cm}
 
     \begin{bmatrix}
-        \frac{T^2}{2m} & 0 & 0\\
-        0 & \frac{T^2}{2m} & 0\\
-        0 & 0 & \frac{T^2}{2m}\\
-        T & 0 & 0\\
-        0 & T & 0\\
-        0 & 0 & T
+        \frac{T_s^2}{2m} & 0 & 0\\
+        0 & \frac{T_s^2}{2m} & 0\\
+        0 & 0 & \frac{T_s^2}{2m}\\
+        T_s & 0 & 0\\
+        0 & T_s & 0\\
+        0 & 0 & T_s
     \end{bmatrix}
     \begin{bmatrix}
         f_x(k)+w_x\\
@@ -136,11 +136,26 @@ The $Q$ matrix was chosen as to prioritose the vertical position and velocity.
 This represents the high level of importance given to landing at the correct altitude. 
 Similarly, the prioritisation of velocity represents the importance of landing a velocity that prevents a hard landing.
 The lateral positions, ie $r_x$ and $r_y$, are given a lower priority than the vertical position, but a higher priority than the lateral velocity, $v_x$ and $v_y$.
-The reasoning behind this is that it is more important that the landing location is correct over the lateral velocities throughout the entire simulation. \\
+The reasoning behind this is that it is more important that the landing location is correct over the lateral velocities throughout the entire simulation. 
+\\
 The $R$ matrix was chosen as to penalise the control inputs, $f_x$, $f_y$ and $f_z$, equally.
 The small value given to $R$, 0.1, represents the low cost associated with expending fuel to control the rocket, and encourages the rocket to use fuel to exercise control in all three directions equally. Essentially, control is cheap. 
 The horizon length $N$ was chosen to be 5 as it provided a spectral radius of 0.5975, which is well within the stability region of the system.
 % discuss the various matrices and how they were made, what they represent. 
+\\
+The poles of the closed loop system were placed through \verb|K_2 = -place(A, B, [0.01 0.01 0 0.01 0 0])|.
+The most important poles, ie the poles representing $r_z$, $v_z$ were placed at zero. 
+The limitations of the \verb|place()| function meant that not every pole could be set to zero, hence the other poles were set to $0.01$. 
+The weighting matrix $P$ was calculated using \verb|P = dlyap((A+B*K_2), Q+K_2'*R*K_2)|.
+The prediction matrices $F$ and $G$ were generated using the \verb|predict_mats()| function, and the corresponding cost matrices $H$, $L$ and $M$ were generated using the \verb|cost_mats()| function. 
+We assume at this point that $Q\succeq 0$ and $R \succ 0$ which implies $\vec u^*_N(k) = -H^{-1}\cdot Lx(k)$.
+As such, the unique and optimal solution to the optimal control problem is obtained and is through quadratic programming at each time step \verb|Uopt = quadprog(H, L*x)|
+\\
+
+
+
+
+
 \subsubsection{Constrained}
 The constrained controller builds on the unconstrained controller by introducing both state and input constraints. 
 The input constraints are chosen as follows:
