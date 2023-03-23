@@ -352,7 +352,7 @@ close(v);
 %% Disturbance Rejection 
 
 
-N = 25 % Horizon
+N = 5 % Horizon
 [F, G] = predict_mats(A, B, N);
 
 % cost funciton matrices

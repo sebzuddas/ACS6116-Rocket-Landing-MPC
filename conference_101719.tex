@@ -61,6 +61,7 @@ The objective of the assignment is to implement a model-predictive control (MPC)
 The problem is fundamentally one of 'controllability', ie $x(0) = x_s \rightarrow x(t_f) = 0$. 
 The assignment gives an abstracted model, we start by rewriting the model as follows:
 
+\begin{center}
 \begin{equation}
     \begin{bmatrix}
         r_x(k+1)\\
@@ -103,10 +104,9 @@ The assignment gives an abstracted model, we start by rewriting the model as fol
         f_y(k)+w_y\\
         f_z(k)-mg\\
     \end{bmatrix}
-
-
     \label{eq:1}
 \end{equation}
+\end{center}
 
 %The objective is to find the optimal control input $f_x(k), f_y(k), f_z(k)$ such that the state $x(k)$ converges to $x(t_f)=\vec{0}$ in finite time $t_f$.
 Although we assume the system is reachable, it is important to check for controllability. 
@@ -159,23 +159,50 @@ As such, the unique and optimal solution to the optimal control problem is obtai
 \subsubsection{Constrained}
 The constrained controller builds on the unconstrained controller by introducing both state and input constraints. 
 The input constraints are chosen as follows:
+The linear inequality constraints are based on the brief, and are chosen as follows:
+\begin{center}
 \[
-    u_{max}
+    P_x = 
     \begin{bmatrix}
-    f_z\cdot\tan{\theta}\\
-    f_z\cdot\tan{\theta}\\
-    12
+        I_x\\
+        -I_x
     \end{bmatrix}
-    ;
-    u_{min} = 
+    P_x = 
     \begin{bmatrix}
-        -f_z\cdot\tan{\theta}\\
-        -f_z\cdot\tan{\theta}\\
+        I_u\\
+        -I_u    
+    \end{bmatrix}
+    \text{ for } I_x \in \mathbb{R}^{6\times 6} \text{ and }I_u\in \mathbb{R}^{3\times 3}
+    \\
+    q_x = 
+    \begin{bmatrix}
+        \frac{r_z}{\tan{\phi}}+50\\
+        \frac{r_z}{\tan{\phi}}+50\\
+        500\\
+        20\\
+        20\\
+        15\\
+        \frac{r_z}{\tan{\phi}}+50\\
+        \frac{r_z}{\tan{\phi}}+50\\
+        0\\
+        20\\
+        20\\
+        15
+    \end{bmatrix}
+    q_u =
+    \begin{bmatrix}
+        f_z\cdot\tan{\theta}\\
+        f_z\cdot\tan{\theta}\\
+        12\\
+        f_z\cdot\tan{\theta}\\
+        f_z\cdot\tan{\theta}\\
         0
     \end{bmatrix}
-\]  
-the input constraints given in the brief as $|f_x|, |f_y| \le f_z \tan{\theta} {}$
-The angle $\theta$ is represents the maximum allowable angle of the rocket engines, and is chosen as $\theta = 10 ^\circ = 0.17\text{ rad}$.
+\]
+\end{center}
+
+The $r_x \ r_y$ constraints were given in the brief as $|r_x|, |r_y| \le \frac{r_z}{\tan{\phi}}$ where $\phi$ represents the glide slope angle, and is chosen as a constant $\phi = 30^\circ = 0.52\text{ rad}$.
+The input constraints given in the brief as $|f_x|, |f_y| \le f_z \tan{\theta}$ where $\theta$ is represents the maximum allowable angle of the rocket engines, and is chosen as $\theta = 10 ^\circ = 0.17\text{ rad}$.
 
 \begin{figure}[H]
 \centering
@@ -195,33 +222,10 @@ The angle $\theta$ is represents the maximum allowable angle of the rocket engin
 
 Figure \ref{tikz:axes} provides a visualisation of how $f_z$ acts on the point mass. 
 
-The state constraints are chosen as follows:
-\[
-    x_{max} = 
-    \begin{bmatrix}
-        \frac{r_z}{\tan{\phi}}+50\\
-        \frac{r_z}{\tan{\phi}}+50\\
-        500\\
-        20\\
-        20\\
-        15
-    \end{bmatrix}
-    ;
-    x_{min} = 
-    \begin{bmatrix}
-        -\frac{r_z}{\tan{\phi}}-50\\
-        -\frac{r_z}{\tan{\phi}}-50\\
-        0\\
-        -20\\
-        -20\\
-        -15
-    \end{bmatrix}
-\]
-The $r_x \ r_y$ constraints were given in the brief as $|r_x|, |r_y| \le \frac{r_z}{\tan{\phi}}$.
-The angle $\phi$ represents the glide slope angle, and is chosen as a constant $\phi = 30^\circ = 0.52\text{ rad}$.
+
 
 \subsubsection{Disturbance Rejection}
-The disturbance rejection controller builds on both the unconstrained and constrained controllers. 
+The disturbance rejection controller builds on both the unconstrained and constrained controllers. No reference tracking is included in the following controller. 
 Only wind disturbance is considered, and is modelled as a sinusoid as follows:
 \[
     \vec{w}(k)
@@ -232,9 +236,9 @@ Only wind disturbance is considered, and is modelled as a sinusoid as follows:
         0
     \end{bmatrix}
 \]
-
-In terms of controller design, we start by rewriting equation \ref{eq:1} as follows:
-
+The use of a sinusoid disturbance is intended to represent the changing windspeeds as the rocket descends. The sinusoid functions were chosen to be out of phase as to yield visibly different results. 
+\\
+In terms of controller design, equation \ref{eq:1} is rewritten as follows:
 \[
     \begin{cases}
     x(k+1) = Ax(k) + Bu(k) + Ew(k)\\
