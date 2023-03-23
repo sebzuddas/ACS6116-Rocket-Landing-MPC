@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2023.3.19)  23 MAR 2023 12:36
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2023.3.19)  23 MAR 2023 16:35
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -405,6 +405,42 @@ File: pdftex.cnt 2004/11/18 v2.14 Print contoured text (HH, MH)
 File: tikzlibraryangles.code.tex 2021/05/15 v3.1.9a (3.1.9a)
 ) (/usr/local/texlive/2022/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibraryquotes.code.tex
 File: tikzlibraryquotes.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+) (/usr/local/texlive/2022/texmf-dist/tex/latex/caption/caption.sty
+Package: caption 2022/03/01 v3.6b Customizing captions (AR)
+ (/usr/local/texlive/2022/texmf-dist/tex/latex/caption/caption3.sty
+Package: caption3 2022/03/17 v2.3b caption3 kernel (AR)
+\caption@tempdima=\dimen280
+\captionmargin=\dimen281
+\caption@leftmargin=\dimen282
+\caption@rightmargin=\dimen283
+\caption@width=\dimen284
+\caption@indent=\dimen285
+\caption@parindent=\dimen286
+\caption@hangindent=\dimen287
+Package caption Info: Unknown document class (or package),
+(caption)             standard defaults will be used.
+Package caption Info: \@makecaption = \long macro:#1#2->\ifx \@captype \@IEEEtablestring \footnotesize \bgroup \par \centering \@IEEEtabletopskipstrut {\normalfont \footnotesize #1}\\{\normalfont \footnotesize \scshape #2}\par \addvspace {0.5\baselineskip }\egroup \@IEEEtablecaptionsepspace \else \@IEEEfigurecaptionsepspace \setbox \@tempboxa \hbox {\normalfont \footnotesize {#1.}\nobreakspace \nobreakspace #2}\ifdim \wd \@tempboxa >\hsize \setbox \@tempboxa \hbox {\normalfont \footnotesize {#1.}\nobreakspace \nobreakspace }\parbox [t]{\hsize }{\normalfont \footnotesize \noindent \unhbox \@tempboxa #2}\else \ifCLASSOPTIONconference \hbox to\hsize {\normalfont \footnotesize \hfil \box \@tempboxa \hfil }\else \hbox to\hsize {\normalfont \footnotesize \box \@tempboxa \hfil }\fi \fi \fi  on input line 1176.
+)
+
+Package caption Warning: Unknown document class (or package),
+(caption)                standard defaults will be used.
+See the caption package documentation for explanation.
+
+\c@caption@flags=\count300
+\c@continuedfloat=\count301
+) (/usr/local/texlive/2022/texmf-dist/tex/latex/caption/subcaption.sty
+Package: subcaption 2022/01/07 v1.5 Sub-captions (AR)
+\c@subfigure=\count302
+\c@subtable=\count303
+) (/usr/local/texlive/2022/texmf-dist/tex/latex/subfig/subfig.sty
+Package: subfig 2005/06/28 ver: 1.3 subfig package
+\c@KVtest=\count304
+\sf@farskip=\skip54
+\sf@captopadj=\dimen288
+\sf@capskip=\skip55
+\sf@nearskip=\skip56
+\sf@top=\skip57
+\sf@bottom=\skip58
 ) (/usr/local/texlive/2022/texmf-dist/tex/latex/amsfonts/amssymb.sty
 Package: amssymb 2013/01/14 v3.01 AMS font symbols
  (/usr/local/texlive/2022/texmf-dist/tex/latex/amsfonts/amsfonts.sty
@@ -416,42 +452,42 @@ LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
 (Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
 )) (/usr/local/texlive/2022/texmf-dist/tex/latex/algorithms/algorithmic.sty
 Package: algorithmic 2009/08/24 v0.1 Document Style `algorithmic'
-\c@ALC@unique=\count300
-\c@ALC@line=\count301
-\c@ALC@rem=\count302
-\c@ALC@depth=\count303
-\ALC@tlm=\skip54
-\algorithmicindent=\skip55
+\c@ALC@unique=\count305
+\c@ALC@line=\count306
+\c@ALC@rem=\count307
+\c@ALC@depth=\count308
+\ALC@tlm=\skip59
+\algorithmicindent=\skip60
 ) (/usr/local/texlive/2022/texmf-dist/tex/latex/base/textcomp.sty
 Package: textcomp 2020/02/02 v2.0n Standard LaTeX package
 ) (/usr/local/texlive/2022/texmf-dist/tex/latex/media9/media9.sty (/usr/local/texlive/2022/texmf-dist/tex/latex/l3packages/l3keys2e/l3keys2e.sty
 Package: l3keys2e 2022-01-12 LaTeX2e option processing using LaTeX3 keys
 )
 Package: media9 2022/03/18 v1.24 acrobat-9/X compatible media
-\g_mix_pkgresizeflag_int=\count304
+\g_mix_pkgresizeflag_int=\count309
  (/usr/local/texlive/2022/texmf-dist/tex/latex/media9/pdfbase.sty
 Package: pdfbase 2022/03/18 v0.54 driver independent access to low-level PDF features
-\g_pbs_page_int=\count305
-\g_pbs_oc_int=\count306
+\g_pbs_page_int=\count310
+\g_pbs_oc_int=\count311
 ) (/usr/local/texlive/2022/texmf-dist/tex/latex/ocgx2/ocgbase.sty
 Package: ocgbase 2021/06/11 v0.20 support package for ocgx2.sty
-\g_ocgbase_nd_int=\count307
+\g_ocgbase_nd_int=\count312
 )
 \l_mix_poster_box=\box66
-\g_mix_wd_dim=\dimen280
-\g_mix_ht_dim=\dimen281
-\g_mix_dp_dim=\dimen282
-\g_mix_rmcnt_int=\count308
-\l_mix_viewcnt_int=\count309
-\g@mix@page@int=\count310
-\g_mix_resizeflag_int=\count311
-\l_mix_lineno_int=\count312
+\g_mix_wd_dim=\dimen289
+\g_mix_ht_dim=\dimen290
+\g_mix_dp_dim=\dimen291
+\g_mix_rmcnt_int=\count313
+\l_mix_viewcnt_int=\count314
+\g@mix@page@int=\count315
+\g_mix_resizeflag_int=\count316
+\l_mix_lineno_int=\count317
 \l_mix_pbtn_box=\box67
-\g_mix_mbtncnt_int=\count313
-\mix@btn@dim=\dimen283
+\g_mix_mbtncnt_int=\count318
+\mix@btn@dim=\dimen292
 ) (/usr/local/texlive/2022/texmf-dist/tex/latex/float/float.sty
 Package: float 2001/11/08 v1.3d Float enhancements (AL)
-\c@float@type=\count314
+\c@float@type=\count319
 \float@exts=\toks35
 \float@box=\box68
 \@float@everytoks=\toks36
@@ -464,33 +500,33 @@ LaTeX Warning: Unused global option(s):
 No file conference_101719.aux.
 \openout1 = `conference_101719.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 36.
-LaTeX Font Info:    ... okay on input line 36.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 36.
-LaTeX Font Info:    ... okay on input line 36.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 36.
-LaTeX Font Info:    ... okay on input line 36.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 36.
-LaTeX Font Info:    ... okay on input line 36.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 36.
-LaTeX Font Info:    ... okay on input line 36.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 36.
-LaTeX Font Info:    ... okay on input line 36.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 36.
-LaTeX Font Info:    ... okay on input line 36.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 39.
+LaTeX Font Info:    ... okay on input line 39.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 39.
+LaTeX Font Info:    ... okay on input line 39.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 39.
+LaTeX Font Info:    ... okay on input line 39.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 39.
+LaTeX Font Info:    ... okay on input line 39.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 39.
+LaTeX Font Info:    ... okay on input line 39.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 39.
+LaTeX Font Info:    ... okay on input line 39.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 39.
+LaTeX Font Info:    ... okay on input line 39.
 -- Lines per column: 56 (exact).
 (/usr/local/texlive/2022/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count315
-\scratchdimen=\dimen284
+\scratchcounter=\count320
+\scratchdimen=\dimen293
 \scratchbox=\box70
-\nofMPsegments=\count316
-\nofMParguments=\count317
+\nofMPsegments=\count321
+\nofMParguments=\count322
 \everyMPshowfont=\toks37
-\MPscratchCnt=\count318
-\MPscratchDim=\dimen285
-\MPnumerator=\count319
-\makeMPintoPDFobject=\count320
+\MPscratchCnt=\count323
+\MPscratchDim=\dimen294
+\MPnumerator=\count324
+\makeMPintoPDFobject=\count325
 \everyMPtoPDFconversion=\toks38
 ) (/usr/local/texlive/2022/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
@@ -498,433 +534,40 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 48
  (/usr/local/texlive/2022/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
 ))
-LaTeX Font Info:    Trying to load font information for U+msa on input line 50.
- (/usr/local/texlive/2022/texmf-dist/tex/latex/amsfonts/umsa.fd
-File: umsa.fd 2013/01/14 v3.01 AMS symbols A
-)
-LaTeX Font Info:    Trying to load font information for U+msb on input line 50.
- (/usr/local/texlive/2022/texmf-dist/tex/latex/amsfonts/umsb.fd
-File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-)
-/Users/sebastianozuddas/Programming/Latex/ACS6116---Rocket-Landing-MPC-/conference_101719.tex:93: Missing $ inserted.
-<inserted text> 
-                $
-l.93 
-     
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-/Users/sebastianozuddas/Programming/Latex/ACS6116---Rocket-Landing-MPC-/conference_101719.tex:93: Missing } inserted.
-<inserted text> 
-                }
-l.93 
-     
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-/Users/sebastianozuddas/Programming/Latex/ACS6116---Rocket-Landing-MPC-/conference_101719.tex:93: Display math should end with $$.
-<to be read again> 
-                   \tex_par:D 
-l.93 
-     
-The `$' that I just saw supposedly matches a previous `$$'.
-So I shall assume that you typed `$$' both times.
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: subfig package v1.3 is loaded.
+Package caption Info: float package is loaded.
 
 
-Overfull \hbox (26.6209pt too wide) detected at line 93
-[][] \OT1/cmr/m/n/10 = [] [] +|  []
- []
+/Users/sebastianozuddas/Programming/Latex/ACS6116---Rocket-Landing-MPC-/conference_101719.tex:39: Package subcaption Error: This package can't be used in cooperation
+(subcaption)                with the subfig package.
 
-/Users/sebastianozuddas/Programming/Latex/ACS6116---Rocket-Landing-MPC-/conference_101719.tex:93: Extra }, or forgotten \endgroup.
-\par ...m \@noitemerr {\@@par }\fi \else {\@@par }
-                                                  \fi 
-l.93 
-     
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
-
-/Users/sebastianozuddas/Programming/Latex/ACS6116---Rocket-Landing-MPC-/conference_101719.tex:94: Missing $ inserted.
-<inserted text> 
-                $
-l.94     \begin{bmatrix}
-                        
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-/Users/sebastianozuddas/Programming/Latex/ACS6116---Rocket-Landing-MPC-/conference_101719.tex:101: Missing $ inserted.
-<inserted text> 
-                $
-l.101     \end{bmatrix}
-                       
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-/Users/sebastianozuddas/Programming/Latex/ACS6116---Rocket-Landing-MPC-/conference_101719.tex:102: Missing $ inserted.
-<inserted text> 
-                $
-l.102     \begin{bmatrix}
-                         
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-/Users/sebastianozuddas/Programming/Latex/ACS6116---Rocket-Landing-MPC-/conference_101719.tex:106: Missing $ inserted.
-<inserted text> 
-                $
-l.106     \end{bmatrix}
-                       
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-
-/Users/sebastianozuddas/Programming/Latex/ACS6116---Rocket-Landing-MPC-/conference_101719.tex:108: LaTeX Error: Bad math environment delimiter.
-
-See the LaTeX manual or LaTeX Companion for explanation.
+See the subcaption package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.108 \end{equation}
-                    
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
+l.39 \begin{document}
+                     
+If you do not understand this error, please take a closer look
+at the documentation of the `subcaption' package, especially the
+section about errors.
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
 
-/Users/sebastianozuddas/Programming/Latex/ACS6116---Rocket-Landing-MPC-/conference_101719.tex:108: You can't use `\eqno' in horizontal mode.
-\endmathdisplay@a ...\df@tag \@empty \else \veqno 
-                                                  \alt@tag \df@tag \fi \ifx ...
-l.108 \end{equation}
-                    
-Sorry, but I'm not programmed to handle this case;
-I'll just pretend that you didn't ask for it.
-If you're in the wrong mode, you might be able to
-return to the right one by typing `I}' or `I$' or `I\par'.
-
-/Users/sebastianozuddas/Programming/Latex/ACS6116---Rocket-Landing-MPC-/conference_101719.tex:108: Missing $ inserted.
-<inserted text> 
-                $
-l.108 \end{equation}
-                    
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-/Users/sebastianozuddas/Programming/Latex/ACS6116---Rocket-Landing-MPC-/conference_101719.tex:108: Display math should end with $$.
-<to be read again> 
-                   \endgroup 
-l.108 \end{equation}
-                    
-The `$' that I just saw supposedly matches a previous `$$'.
-So I shall assume that you typed `$$' both times.
-
-LaTeX Font Info:    Trying to load font information for OT1+pcr on input line 113.
-(/usr/local/texlive/2022/texmf-dist/tex/latex/psnfss/ot1pcr.fd
-File: ot1pcr.fd 2001/06/04 font definitions for OT1/pcr.
+Package caption Info: End \AtBeginDocument code.
 )
-Underfull \hbox (badness 1681) in paragraph at lines 112--114
-\OT1/ptm/m/n/10 por-tant to check for con-trol-la-bil-ity. Through MAT-LAB:
- []
-
-
-Overfull \hbox (2.5pt too wide) in paragraph at lines 135--154
-[][]\OT1/pcr/m/n/10 K_2 = -place(A, B, [0.01 0.01 0 0.01 0 0])[]\OT1/ptm/m/n/10 .
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 135--154
-[][]\OT1/pcr/m/n/10 predict_mats() []\OT1/ptm/m/n/10 func-tion, and the cor-re-spond-ing
- []
-
-
-Underfull \hbox (badness 1688) in paragraph at lines 135--154
-\OT1/ptm/m/n/10 cost ma-tri-ces $\OML/cmm/m/it/10 H$\OT1/ptm/m/n/10 , $\OML/cmm/m/it/10 L$ \OT1/ptm/m/n/10 and $\OML/cmm/m/it/10 M$ \OT1/ptm/m/n/10 were gen-er-ated us-ing the
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 135--154
-
- []
-
-[1{/usr/local/texlive/2022/texmf-var/fonts/map/pdftex/updmap/pdftex.map}
-
-
-]
-
-/Users/sebastianozuddas/Programming/Latex/ACS6116---Rocket-Landing-MPC-/conference_101719.tex:176: LaTeX Error: There's no line here to end.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
+! Emergency stop.
+<*> ...116---Rocket-Landing-MPC-/conference_101719
                                                   
-l.176     \\
-            
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
+*** (job aborted, no legal \end found)
 
-/Users/sebastianozuddas/Programming/Latex/ACS6116---Rocket-Landing-MPC-/conference_101719.tex:176: Missing $ inserted.
-<inserted text> 
-                $
-l.176     \\
-            
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-/Users/sebastianozuddas/Programming/Latex/ACS6116---Rocket-Landing-MPC-/conference_101719.tex:176: Missing } inserted.
-<inserted text> 
-                }
-l.176     \\
-            
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-/Users/sebastianozuddas/Programming/Latex/ACS6116---Rocket-Landing-MPC-/conference_101719.tex:176: Display math should end with $$.
-<to be read again> 
-                   \tex_par:D 
-l.176     \\
-            
-The `$' that I just saw supposedly matches a previous `$$'.
-So I shall assume that you typed `$$' both times.
-
-/Users/sebastianozuddas/Programming/Latex/ACS6116---Rocket-Landing-MPC-/conference_101719.tex:176: Extra }, or forgotten \endgroup.
-\par ...m \@noitemerr {\@@par }\fi \else {\@@par }
-                                                  \fi 
-l.176     \\
-            
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
-
-/Users/sebastianozuddas/Programming/Latex/ACS6116---Rocket-Landing-MPC-/conference_101719.tex:177: Missing $ inserted.
-<inserted text> 
-                $
-l.177     q_
-            x =
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-/Users/sebastianozuddas/Programming/Latex/ACS6116---Rocket-Landing-MPC-/conference_101719.tex:201: Missing $ inserted.
-<inserted text> 
-                $
-l.201 \]
-        
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-
-LaTeX Warning: Reference `tikz:axes' on page 2 undefined on input line 223.
-
-
-LaTeX Warning: Citation `test' on page 2 undefined on input line 224.
-
-
-Underfull \hbox (badness 3449) in paragraph at lines 223--226
-\OT1/ptm/m/n/10 The con-straint ma-tri-ces are ob-tained in code through
- []
-
-
-Overfull \hbox (114.0pt too wide) in paragraph at lines 223--226
-[][]\OT1/pcr/m/n/10 [Pc, qc, Sc] = constraint_mats(F, G, Pu, qu, Px, qx, Px, qx); 
- []
-
-
-LaTeX Warning: Reference `eq:1' on page 2 undefined on input line 243.
-
-/Users/sebastianozuddas/Programming/Latex/ACS6116---Rocket-Landing-MPC-/conference_101719.tex:280: Missing $ inserted.
-<inserted text> 
-                $
-l.280 
-      
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-/Users/sebastianozuddas/Programming/Latex/ACS6116---Rocket-Landing-MPC-/conference_101719.tex:280: Display math should end with $$.
-<to be read again> 
-                   \tex_par:D 
-l.280 
-      
-The `$' that I just saw supposedly matches a previous `$$'.
-So I shall assume that you typed `$$' both times.
-
-
-/Users/sebastianozuddas/Programming/Latex/ACS6116---Rocket-Landing-MPC-/conference_101719.tex:281: LaTeX Error: Bad math environment delimiter.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.281 \]
-        
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-/Users/sebastianozuddas/Programming/Latex/ACS6116---Rocket-Landing-MPC-/conference_101719.tex:281: Missing $ inserted.
-<inserted text> 
-                $
-l.281 \]
-        
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-/Users/sebastianozuddas/Programming/Latex/ACS6116---Rocket-Landing-MPC-/conference_101719.tex:281: Display math should end with $$.
-<to be read again> 
-                   \endgroup 
-l.281 \]
-        
-The `$' that I just saw supposedly matches a previous `$$'.
-So I shall assume that you typed `$$' both times.
-
-/Users/sebastianozuddas/Programming/Latex/ACS6116---Rocket-Landing-MPC-/conference_101719.tex:302: Missing $ inserted.
-<inserted text> 
-                $
-l.302 
-      
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-/Users/sebastianozuddas/Programming/Latex/ACS6116---Rocket-Landing-MPC-/conference_101719.tex:302: Display math should end with $$.
-<to be read again> 
-                   \tex_par:D 
-l.302 
-      
-The `$' that I just saw supposedly matches a previous `$$'.
-So I shall assume that you typed `$$' both times.
-
-
-/Users/sebastianozuddas/Programming/Latex/ACS6116---Rocket-Landing-MPC-/conference_101719.tex:303: LaTeX Error: Bad math environment delimiter.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.303 \]
-        
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-/Users/sebastianozuddas/Programming/Latex/ACS6116---Rocket-Landing-MPC-/conference_101719.tex:303: Missing $ inserted.
-<inserted text> 
-                $
-l.303 \]
-        
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-/Users/sebastianozuddas/Programming/Latex/ACS6116---Rocket-Landing-MPC-/conference_101719.tex:303: Display math should end with $$.
-<to be read again> 
-                   \endgroup 
-l.303 \]
-        
-The `$' that I just saw supposedly matches a previous `$$'.
-So I shall assume that you typed `$$' both times.
-
-[2]
-
-LaTeX Warning: Reference `AA' on page 3 undefined on input line 334.
-
-
-LaTeX Warning: Reference `SCM' on page 3 undefined on input line 334.
-
-
-LaTeX Warning: Citation `handout' on page 3 undefined on input line 357.
-
-
-LaTeX Warning: Reference `eq' on page 3 undefined on input line 369.
-
-
-LaTeX Warning: Reference `eq' on page 3 undefined on input line 369.
-
-
-LaTeX Warning: Reference `eq' on page 3 undefined on input line 369.
-
-
-LaTeX Warning: Reference `eq' on page 3 undefined on input line 370.
-
-[3]
-
-LaTeX Warning: Citation `b7' on page 4 undefined on input line 423.
-
-
-LaTeX Warning: Reference `fig' on page 4 undefined on input line 459.
-
-<Figures/Constrained_input_plot.png, id=36, 562.2606pt x 421.575pt>
-File: Figures/Constrained_input_plot.png Graphic file (type png)
-<use Figures/Constrained_input_plot.png>
-Package pdftex.def Info: Figures/Constrained_input_plot.png  used on input line 479.
-(pdftex.def)             Requested size: 562.25923pt x 421.57396pt.
-LaTeX Font Info:    Trying to load font information for OMS+ptm on input line 490.
-(/usr/local/texlive/2022/texmf-dist/tex/latex/psnfss/omsptm.fd
-File: omsptm.fd 
-)
-LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <10> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 490.
- [4 <./Figures/Constrained_input_plot.png (PNG copy)>]
-No file conference_101719.bbl.
-
-** Conference Paper **
-Before submitting the final camera ready copy, remember to:
-
- 1. Manually equalize the lengths of two columns on the last page
- of your paper;
-
- 2. Ensure that any PostScript and/or PDF output post-processing
- uses only Type 1 fonts and that every step in the generation
- process uses the appropriate paper size.
-
-[5
-
-] [6] (./conference_101719.aux)
-
-LaTeX Warning: There were undefined references.
-
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
-
-LaTeX Warning: Temporary extra page added at the end. Rerun to get it removed.
-
- ) 
+ 
 Here is how much of TeX's memory you used:
- 16951 strings out of 478268
- 347320 string characters out of 5846347
- 655541 words of memory out of 5000000
- 34847 multiletter control sequences out of 15000+600000
- 514359 words of font info for 113 fonts, out of 8000000 for 9000
+ 18172 strings out of 478268
+ 371140 string characters out of 5846347
+ 653437 words of memory out of 5000000
+ 36111 multiletter control sequences out of 15000+600000
+ 490329 words of font info for 68 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 100i,11n,104p,660b,809s stack positions out of 10000i,1000n,20000p,200000b,200000s
-{/usr/local/texlive/2022/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/urw/courier/ucrr8a.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/urw/times/utmbi8a.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on conference_101719.pdf (6 pages, 278501 bytes).
-PDF statistics:
- 128 PDF objects out of 1000 (max. 8388607)
- 80 compressed objects within 1 object stream
- 0 named destinations out of 1000 (max. 500000)
- 18 words of extra memory for PDF output out of 10000 (max. 10000000)
-
+ 100i,1n,104p,490b,152s stack positions out of 10000i,1000n,20000p,200000b,200000s
+!  ==> Fatal error occurred, no output PDF file produced!

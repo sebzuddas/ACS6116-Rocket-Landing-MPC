@@ -23,6 +23,9 @@
 \usetikzlibrary{angles,quotes} % for pic (angle labels)
 \contourlength{1.3pt}
 
+\usepackage{caption}
+\usepackage{subcaption}
+\usepackage[labelsep=quad,indention=10pt]{subfig}
 \usepackage{amsmath,amssymb,amsfonts}
 \usepackage{algorithmic}
 \usepackage{graphicx}
@@ -222,11 +225,11 @@ The input constraints given in the brief as $|f_x|, |f_y| \le f_z \tan{\theta}$ 
 
 Figure \ref{tikz:axes} provides a visualisation of how $f_z$ acts on the point mass. 
 Overall, this permits the implementation of Algorithm 6.1, pg. 102 from \cite{test}, since all the relevant optimal control and constraint matrices have been defined. 
-The constraint matrices are obtained in code through \verb|[Pc, qc, Sc] = constraint_mats(F, G, Pu, qu, Px, qx, Px, qx);|
-
-
+The constraint matrices are obtained in code through \verb|constraint_mats()|. 
+Disturbances are included in the simulation despite no disturbance rejection implementation, mainly to be able to contrast the results and demonstrate the implementation of disturbance rejection.
 
 \subsubsection{Disturbance Rejection}
+Rank, reachability and observability tests were performed on $B, E$ and the two pairs $(A, B); (C, A)$ and it was found that disturbance rejection was possible. 
 The disturbance rejection controller builds on both the unconstrained and constrained controllers. No reference tracking is included in the following controller. 
 Only wind disturbance is considered, and is modelled as a sinusoid as follows:
 \[
@@ -238,7 +241,7 @@ Only wind disturbance is considered, and is modelled as a sinusoid as follows:
         0
     \end{bmatrix}
 \]
-The use of a sinusoid disturbance is intended to represent the changing windspeeds as the rocket descends. The sinusoid functions were chosen to be out of phase as to yield visibly different results. 
+The use of a sinusoid disturbance is intended to represent the changing windspeeds as the rocket descends through the atmosphere. The sinusoid functions were chosen to be out of phase as to yield visibly different results. 
 \\
 In terms of controller design, equation \ref{eq:1} is rewritten as follows:
 \[
@@ -263,28 +266,29 @@ It is now possible to formulate the $T$ matrix to find $x_{ss};u_{ss}$.
         C & 0
     \end{bmatrix}
 \]
-In this case, we have $C \in \mathbb{R}^{6 \times 6} \land B \in \mathbb{R}^{6 \times 3} \therefore p < m \iff 3 < 6$ . 
-As such, we expect only some 
-as such, $x_{ss};u_{ss}$ are given by:
+In this case, we have $C \in \mathbb{R}^{6 \times 6} \land B \in \mathbb{R}^{6 \times 3} \therefore p < m \iff 3 < 6$.
+Similarly, we find that $T$ is full row rank, confriming that for any pair $ (r, d) \ \exists$ a pair $(x_{ss}, u_{ss})$.
+As such, $x_{ss};u_{ss}$ are given by:
 \[
     \begin{bmatrix}
         x_{ss}(k)\\
         u_{ss}(k)
     \end{bmatrix}
     =
+    T^{-1}
     \begin{bmatrix}
-        T^{-1}B\cdot \vec w(k)\\
+        B\cdot \vec w(k)\\
 
         0
     \end{bmatrix}
-
 \]
+From this result, the deviation variables become $ z := x - x_{ss}; v := u - x_{ss}$. 
+As a result, $v^*(k|k)$ is calculated through \verb|quadprog(H, L*z, qc+Sc*z)| at each iteration.
 
 
 \subsection{Experiment Setup}
-First, it is important to state simplifications assumed. 
-
-Let the starting parameters be as follows:
+The mass of the rocket is simplified and assumed to be constant for all experiments, and is chosen as $m = 1\text{ kg}$.
+The starting parameters for each experiment are as follows:
 \[
     \vec x(0)
         =
@@ -299,13 +303,46 @@ Let the starting parameters be as follows:
         \land
         \vec u(0)
         = \vec 0
-        
 \]
 
 These starting conditions are the limits of what the assignment permits, i.e a maximum starting altitide of 500m, and a maximum lateral distance of 600m.
 
-
+\pagebreak
 \section{Results}
+\subsection{Unconstrained}
+% \begin{figure}
+%     \centering
+%     \begin{subfigure}[b]{\columnwidth}
+%         \centering
+%         \includegraphics[\columnwidth]{new_final_figs/Unconstrained_input_plot.png}
+%         %\caption{$y=x$}
+%         %\label{fig:y equals x}
+%     \end{subfigure}
+%     \begin{subfigure}[b]{\columnwidth}
+%         \centering
+%         \includegraphics[width=\columnwidth]{new_final_figs/Unconstrained_position_state_plot.png}
+%         %\caption{$y=3\sin x$}
+%         %\label{fig:three sin x}
+%     \end{subfigure}
+%     \begin{subfigure}[b]{\columnwidth}
+%         \centering
+%         \includegraphics[width=\columnwidth]{new_final_figs/Unconstrained_position_state_space.png}
+%         %\caption{$y=5/x$}
+%         %\label{fig:five over x}
+%     \end{subfigure}
+%     \begin{subfigure}[b]{\columnwidth}
+%         \centering
+%         \includegraphics[width=\columnwidth]{new_final_figs/Unconstrained_velocity_state_space.png}
+%         %\caption{$y=5/x$}
+%         %\label{fig:five over x}
+%     \end{subfigure}
+%        %\caption{Three simple graphs}
+%        %\label{fig:three graphs}
+% \end{figure}
+
+
+\subsection{Constrained}
+\subsection{Disturbance Rejection}
 
 \section{Analysis \& Discussion}
 
@@ -474,12 +511,6 @@ copy& More table copy$^{\mathrm{a}}$& &  \\
 \label{tab1}
 \end{center}
 \end{table}
-
-\begin{figure}[htbp]
-\centerline{\includegraphics{Figures/Constrained_input_plot.png}}
-\caption{Example of a figure caption.}
-\label{fig}
-\end{figure}
 
 Figure Labels: Use 8 point Times New Roman for Figure labels. Use words 
 rather than symbols or abbreviations when writing Figure axis labels to 
