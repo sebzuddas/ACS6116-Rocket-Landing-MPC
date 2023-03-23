@@ -24,7 +24,6 @@
 \contourlength{1.3pt}
 
 \usepackage{caption}
-\usepackage{subcaption}
 \usepackage[labelsep=quad,indention=10pt]{subfig}
 \usepackage{amsmath,amssymb,amsfonts}
 \usepackage{algorithmic}
@@ -309,41 +308,77 @@ These starting conditions are the limits of what the assignment permits, i.e a m
 \pagebreak
 \section{Results}
 \subsection{Unconstrained}
-% \begin{figure}
-%     \centering
-%     \begin{subfigure}[b]{\columnwidth}
-%         \centering
-%         \includegraphics[\columnwidth]{new_final_figs/Unconstrained_input_plot.png}
-%         %\caption{$y=x$}
-%         %\label{fig:y equals x}
-%     \end{subfigure}
-%     \begin{subfigure}[b]{\columnwidth}
-%         \centering
-%         \includegraphics[width=\columnwidth]{new_final_figs/Unconstrained_position_state_plot.png}
-%         %\caption{$y=3\sin x$}
-%         %\label{fig:three sin x}
-%     \end{subfigure}
-%     \begin{subfigure}[b]{\columnwidth}
-%         \centering
-%         \includegraphics[width=\columnwidth]{new_final_figs/Unconstrained_position_state_space.png}
-%         %\caption{$y=5/x$}
-%         %\label{fig:five over x}
-%     \end{subfigure}
-%     \begin{subfigure}[b]{\columnwidth}
-%         \centering
-%         \includegraphics[width=\columnwidth]{new_final_figs/Unconstrained_velocity_state_space.png}
-%         %\caption{$y=5/x$}
-%         %\label{fig:five over x}
-%     \end{subfigure}
-%        %\caption{Three simple graphs}
-%        %\label{fig:three graphs}
-% \end{figure}
+\begin{figure}[H]
+    \centering
+    \begin{subfigure}{\columnwidth}
+        \centering
+        \includegraphics[width=\columnwidth]{new_final_figs/Unconstrained_input_plot.png}
+        \caption{Unconstrained Thrust Control Input}
+        \label{unconst:control_in}
+    \end{subfigure}
+    \begin{subfigure}{\columnwidth}
+        \centering
+        \includegraphics[width=\columnwidth]{new_final_figs/Unconstrained_position_state_plot.png}
+        \caption{Unconstrained Position State Plot}
+        \label{unconst:pos_state}
+    \end{subfigure}
+    \begin{subfigure}{\columnwidth}
+        \centering
+        \includegraphics[width=\columnwidth]{new_final_figs/Unconstrained_velocity_state_plot.png}
+        \caption{Unconstrained Velocity State Plot}
+        \label{unconst:vel_ss}
+    \end{subfigure}
+\end{figure}
 
 
 \subsection{Constrained}
+\begin{figure}[H]
+    \centering
+    \begin{subfigure}{\columnwidth}
+        \centering
+        \includegraphics[width=\columnwidth]{new_final_figs/Constrained_input_plot.png}
+        \caption{Constrained Thrust Control Input}
+        \label{const:control_in}
+    \end{subfigure}
+    \begin{subfigure}{\columnwidth}
+        \centering
+        \includegraphics[width=\columnwidth]{new_final_figs/Constrained_position_state_plot.png}
+        \caption{Constrained Position State Plot}
+        \label{const:pos_state}
+    \end{subfigure}
+    \begin{subfigure}{\columnwidth}
+        \centering
+        \includegraphics[width=\columnwidth]{new_final_figs/Constrained_velocity_state_plot.png}
+        \caption{Constrained Velocity State Plot}
+        \label{const:vel_ss}
+    \end{subfigure}
+\end{figure}
 \subsection{Disturbance Rejection}
+\begin{figure}[H]
+    \centering
+    \begin{subfigure}{\columnwidth}
+        \centering
+        \includegraphics[width=\columnwidth]{new_final_figs/DR_Constrained_input_plot.png}
+        \caption{Disturbance Rejection Thrust Control Input}
+        \label{DR:control_in}
+    \end{subfigure}
+    \begin{subfigure}{\columnwidth}
+        \centering
+        \includegraphics[width=\columnwidth]{new_final_figs/DR_Constrained_position_state_plot.png}
+        \caption{Disturbance Rejection Position State Plot}
+        \label{DR:pos_state}
+    \end{subfigure}
+    \begin{subfigure}{\columnwidth}
+        \centering
+        \includegraphics[width=\columnwidth]{new_final_figs/DR_Constrained_velocity_state_plot.png}
+        \caption{Disturbance Rejection Velocity State Plot}
+        \label{DR:vel_ss}
+    \end{subfigure}
+\end{figure}
 
 \section{Analysis \& Discussion}
+Due to the limitations to the number of pages, the analysis will mainly discuss the effectiveness of the controllers using constraints and disturbance rejection. \\
+
 
 \section{Conclusion}
 
