@@ -143,7 +143,6 @@ The horizon length $N$ was chosen to be 5 as it provided a spectral radius of 0.
 % discuss the various matrices and how they were made, what they represent. 
 \subsubsection{Constrained}
 The constrained controller builds on the unconstrained controller by introducing both state and input constraints. 
-The horizon length $N$ was chosen to be 25 for 
 The input constraints are chosen as follows:
 \[
     u_{max}
@@ -179,7 +178,7 @@ The angle $\theta$ is represents the maximum allowable angle of the rocket engin
 \caption{$f_z$ on the $z$ axis.} \label{tikz:axes}
 \end{figure}
 
-Figure \ref{tikz:axes} shows how the z-axis thrust is exerted, helping visualise how $f_z$ acts on the rocket. 
+Figure \ref{tikz:axes} provides a visualisation of how $f_z$ acts on the point mass. 
 
 The state constraints are chosen as follows:
 \[
@@ -243,7 +242,7 @@ It is now possible to formulate the $T$ matrix to find $x_{ss};u_{ss}$.
         C & 0
     \end{bmatrix}
 \]
-In this case, we have $C \in \mathbb{R}^{6 \times 6} \land C \in \mathbb{R}^{6 \times 3} \therefore p < m \iff 3 < 6$ . 
+In this case, we have $C \in \mathbb{R}^{6 \times 6} \land B \in \mathbb{R}^{6 \times 3} \therefore p < m \iff 3 < 6$ . 
 As such, we expect only some 
 as such, $x_{ss};u_{ss}$ are given by:
 \[

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2023.3.19)  22 MAR 2023 18:07
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2023.3.19)  23 MAR 2023 10:51
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -620,44 +620,44 @@ Underfull \hbox (badness 1681) in paragraph at lines 112--114
 
 ]
 
-LaTeX Warning: Reference `tikz:axes' on page 2 undefined on input line 182.
+LaTeX Warning: Reference `tikz:axes' on page 2 undefined on input line 181.
 
 
-LaTeX Warning: Reference `eq:1' on page 2 undefined on input line 222.
+LaTeX Warning: Reference `eq:1' on page 2 undefined on input line 221.
+
+/Users/sebastianozuddas/Programming/Latex/ACS6116---Rocket-Landing-MPC-/conference_101719.tex:259: Missing $ inserted.
+<inserted text> 
+                $
+l.259 
+      
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+/Users/sebastianozuddas/Programming/Latex/ACS6116---Rocket-Landing-MPC-/conference_101719.tex:259: Display math should end with $$.
+<to be read again> 
+                   \tex_par:D 
+l.259 
+      
+The `$' that I just saw supposedly matches a previous `$$'.
+So I shall assume that you typed `$$' both times.
+
+
+/Users/sebastianozuddas/Programming/Latex/ACS6116---Rocket-Landing-MPC-/conference_101719.tex:260: LaTeX Error: Bad math environment delimiter.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.260 \]
+        
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
 
 /Users/sebastianozuddas/Programming/Latex/ACS6116---Rocket-Landing-MPC-/conference_101719.tex:260: Missing $ inserted.
 <inserted text> 
                 $
-l.260 
-      
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-/Users/sebastianozuddas/Programming/Latex/ACS6116---Rocket-Landing-MPC-/conference_101719.tex:260: Display math should end with $$.
-<to be read again> 
-                   \tex_par:D 
-l.260 
-      
-The `$' that I just saw supposedly matches a previous `$$'.
-So I shall assume that you typed `$$' both times.
-
-
-/Users/sebastianozuddas/Programming/Latex/ACS6116---Rocket-Landing-MPC-/conference_101719.tex:261: LaTeX Error: Bad math environment delimiter.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.261 \]
-        
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-/Users/sebastianozuddas/Programming/Latex/ACS6116---Rocket-Landing-MPC-/conference_101719.tex:261: Missing $ inserted.
-<inserted text> 
-                $
-l.261 \]
+l.260 \]
         
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -665,47 +665,47 @@ With luck, this will get me unwedged. But if you
 really didn't forget anything, try typing `2' now; then
 my insertion and my current dilemma will both disappear.
 
-/Users/sebastianozuddas/Programming/Latex/ACS6116---Rocket-Landing-MPC-/conference_101719.tex:261: Display math should end with $$.
+/Users/sebastianozuddas/Programming/Latex/ACS6116---Rocket-Landing-MPC-/conference_101719.tex:260: Display math should end with $$.
 <to be read again> 
                    \endgroup 
-l.261 \]
+l.260 \]
         
 The `$' that I just saw supposedly matches a previous `$$'.
 So I shall assume that you typed `$$' both times.
+
+/Users/sebastianozuddas/Programming/Latex/ACS6116---Rocket-Landing-MPC-/conference_101719.tex:281: Missing $ inserted.
+<inserted text> 
+                $
+l.281 
+      
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+/Users/sebastianozuddas/Programming/Latex/ACS6116---Rocket-Landing-MPC-/conference_101719.tex:281: Display math should end with $$.
+<to be read again> 
+                   \tex_par:D 
+l.281 
+      
+The `$' that I just saw supposedly matches a previous `$$'.
+So I shall assume that you typed `$$' both times.
+
+
+/Users/sebastianozuddas/Programming/Latex/ACS6116---Rocket-Landing-MPC-/conference_101719.tex:282: LaTeX Error: Bad math environment delimiter.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.282 \]
+        
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
 
 /Users/sebastianozuddas/Programming/Latex/ACS6116---Rocket-Landing-MPC-/conference_101719.tex:282: Missing $ inserted.
 <inserted text> 
                 $
-l.282 
-      
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-/Users/sebastianozuddas/Programming/Latex/ACS6116---Rocket-Landing-MPC-/conference_101719.tex:282: Display math should end with $$.
-<to be read again> 
-                   \tex_par:D 
-l.282 
-      
-The `$' that I just saw supposedly matches a previous `$$'.
-So I shall assume that you typed `$$' both times.
-
-
-/Users/sebastianozuddas/Programming/Latex/ACS6116---Rocket-Landing-MPC-/conference_101719.tex:283: LaTeX Error: Bad math environment delimiter.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.283 \]
-        
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-/Users/sebastianozuddas/Programming/Latex/ACS6116---Rocket-Landing-MPC-/conference_101719.tex:283: Missing $ inserted.
-<inserted text> 
-                $
-l.283 \]
+l.282 \]
         
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -713,54 +713,54 @@ With luck, this will get me unwedged. But if you
 really didn't forget anything, try typing `2' now; then
 my insertion and my current dilemma will both disappear.
 
-/Users/sebastianozuddas/Programming/Latex/ACS6116---Rocket-Landing-MPC-/conference_101719.tex:283: Display math should end with $$.
+/Users/sebastianozuddas/Programming/Latex/ACS6116---Rocket-Landing-MPC-/conference_101719.tex:282: Display math should end with $$.
 <to be read again> 
                    \endgroup 
-l.283 \]
+l.282 \]
         
 The `$' that I just saw supposedly matches a previous `$$'.
 So I shall assume that you typed `$$' both times.
 
 [2]
 
-LaTeX Warning: Reference `AA' on page 3 undefined on input line 314.
+LaTeX Warning: Reference `AA' on page 3 undefined on input line 313.
 
 
-LaTeX Warning: Reference `SCM' on page 3 undefined on input line 314.
+LaTeX Warning: Reference `SCM' on page 3 undefined on input line 313.
 
 
-LaTeX Warning: Citation `handout' on page 3 undefined on input line 337.
+LaTeX Warning: Citation `handout' on page 3 undefined on input line 336.
+
+
+LaTeX Warning: Reference `eq' on page 3 undefined on input line 348.
+
+
+LaTeX Warning: Reference `eq' on page 3 undefined on input line 348.
+
+
+LaTeX Warning: Reference `eq' on page 3 undefined on input line 348.
 
 
 LaTeX Warning: Reference `eq' on page 3 undefined on input line 349.
-
-
-LaTeX Warning: Reference `eq' on page 3 undefined on input line 349.
-
-
-LaTeX Warning: Reference `eq' on page 3 undefined on input line 349.
-
-
-LaTeX Warning: Reference `eq' on page 3 undefined on input line 350.
 
 [3]
 
-LaTeX Warning: Citation `b7' on page 4 undefined on input line 403.
+LaTeX Warning: Citation `b7' on page 4 undefined on input line 402.
 
 
-LaTeX Warning: Reference `fig' on page 4 undefined on input line 439.
+LaTeX Warning: Reference `fig' on page 4 undefined on input line 438.
 
 <Figures/Constrained_input_plot.png, id=36, 562.2606pt x 421.575pt>
 File: Figures/Constrained_input_plot.png Graphic file (type png)
 <use Figures/Constrained_input_plot.png>
-Package pdftex.def Info: Figures/Constrained_input_plot.png  used on input line 459.
+Package pdftex.def Info: Figures/Constrained_input_plot.png  used on input line 458.
 (pdftex.def)             Requested size: 562.25923pt x 421.57396pt.
-LaTeX Font Info:    Trying to load font information for OMS+ptm on input line 470.
+LaTeX Font Info:    Trying to load font information for OMS+ptm on input line 469.
 (/usr/local/texlive/2022/texmf-dist/tex/latex/psnfss/omsptm.fd
 File: omsptm.fd 
 )
 LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <10> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 470.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 469.
  [4 <./Figures/Constrained_input_plot.png (PNG copy)>]
 No file conference_101719.bbl.
 
@@ -796,7 +796,7 @@ Here is how much of TeX's memory you used:
  1141 hyphenation exceptions out of 8191
  100i,11n,104p,660b,809s stack positions out of 10000i,1000n,20000p,200000b,200000s
 {/usr/local/texlive/2022/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/urw/courier/ucrr8a.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/urw/times/utmbi8a.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on conference_101719.pdf (6 pages, 271130 bytes).
+Output written on conference_101719.pdf (6 pages, 271060 bytes).
 PDF statistics:
  128 PDF objects out of 1000 (max. 8388607)
  80 compressed objects within 1 object stream
