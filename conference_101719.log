@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2023.3.19)  23 MAR 2023 17:36
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2023.3.19)  23 MAR 2023 18:07
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1263,42 +1263,8 @@ Underfull \hbox (badness 10000) in paragraph at lines 380--381
 Underfull \vbox (badness 8113) has occurred while \output is active []
 
  [4 <./new_final_figs/DR_Constrained_input_plot.png (PNG copy)> <./new_final_figs/DR_Constrained_position_state_plot.png (PNG copy)> <./new_final_figs/DR_Constrained_velocity_state_plot.png (PNG copy)>]
-
-LaTeX Warning: Reference `AA' on page 5 undefined on input line 405.
-
-
-LaTeX Warning: Reference `SCM' on page 5 undefined on input line 405.
-
-
-LaTeX Warning: Citation `handout' on page 5 undefined on input line 428.
-
-
-LaTeX Warning: Reference `eq' on page 5 undefined on input line 440.
-
-
-LaTeX Warning: Reference `eq' on page 5 undefined on input line 440.
-
-
-LaTeX Warning: Reference `eq' on page 5 undefined on input line 440.
-
-
-LaTeX Warning: Reference `eq' on page 5 undefined on input line 441.
-
-[5]
-
-LaTeX Warning: Citation `b7' on page 6 undefined on input line 494.
-
-
-LaTeX Warning: Reference `fig' on page 6 undefined on input line 530.
-
-LaTeX Font Info:    Trying to load font information for OMS+ptm on input line 555.
-(/usr/local/texlive/2022/texmf-dist/tex/latex/psnfss/omsptm.fd
-File: omsptm.fd 
-)
-LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <10> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 555.
-
 No file conference_101719.bbl.
+** WARNING: Ignoring useless \section in Appendix (line 393).
 
 ** Conference Paper **
 Before submitting the final camera ready copy, remember to:
@@ -1310,7 +1276,9 @@ Before submitting the final camera ready copy, remember to:
  uses only Type 1 fonts and that every step in the generation
  process uses the appropriate paper size.
 
-[6] [7] (./conference_101719.aux)
+[5
+
+] [6] (./conference_101719.aux)
 
 LaTeX Warning: There were undefined references.
 
@@ -1322,18 +1290,18 @@ LaTeX Warning: Temporary extra page added at the end. Rerun to get it removed.
 
  ) 
 Here is how much of TeX's memory you used:
- 18485 strings out of 478268
- 378795 string characters out of 5846347
+ 18445 strings out of 478268
+ 378267 string characters out of 5846347
  682144 words of memory out of 5000000
- 36364 multiletter control sequences out of 15000+600000
- 512635 words of font info for 111 fonts, out of 8000000 for 9000
+ 36334 multiletter control sequences out of 15000+600000
+ 507753 words of font info for 102 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 100i,11n,104p,660b,824s stack positions out of 10000i,1000n,20000p,200000b,200000s
-{/usr/local/texlive/2022/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/urw/courier/ucrr8a.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/urw/times/utmbi8a.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on conference_101719.pdf (7 pages, 631498 bytes).
+ 100i,9n,104p,490b,824s stack positions out of 10000i,1000n,20000p,200000b,200000s
+{/usr/local/texlive/2022/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/urw/courier/ucrr8a.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/urw/times/utmbi8a.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
+Output written on conference_101719.pdf (6 pages, 608780 bytes).
 PDF statistics:
- 132 PDF objects out of 1000 (max. 8388607)
- 79 compressed objects within 1 object stream
+ 121 PDF objects out of 1000 (max. 8388607)
+ 71 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  58 words of extra memory for PDF output out of 10000 (max. 10000000)
 
