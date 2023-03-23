@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2023.3.19)  23 MAR 2023 16:42
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2023.3.19)  23 MAR 2023 17:36
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -428,17 +428,19 @@ See the caption package documentation for explanation.
 
 \c@caption@flags=\count300
 \c@continuedfloat=\count301
-) (/usr/local/texlive/2022/texmf-dist/tex/latex/caption/subcaption.sty
-Package: subcaption 2022/01/07 v1.5 Sub-captions (AR)
-\c@subfigure=\count302
-\c@subtable=\count303
 ) (/usr/local/texlive/2022/texmf-dist/tex/latex/subfig/subfig.sty
 Package: subfig 2005/06/28 ver: 1.3 subfig package
-\c@KVtest=\count304
+\c@KVtest=\count302
 \sf@farskip=\skip54
 \sf@captopadj=\dimen288
 \sf@capskip=\skip55
 \sf@nearskip=\skip56
+\c@subfigure=\count303
+\c@subfigure@save=\count304
+\c@lofdepth=\count305
+\c@subtable=\count306
+\c@subtable@save=\count307
+\c@lotdepth=\count308
 \sf@top=\skip57
 \sf@bottom=\skip58
 ) (/usr/local/texlive/2022/texmf-dist/tex/latex/amsfonts/amssymb.sty
@@ -452,10 +454,10 @@ LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
 (Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
 )) (/usr/local/texlive/2022/texmf-dist/tex/latex/algorithms/algorithmic.sty
 Package: algorithmic 2009/08/24 v0.1 Document Style `algorithmic'
-\c@ALC@unique=\count305
-\c@ALC@line=\count306
-\c@ALC@rem=\count307
-\c@ALC@depth=\count308
+\c@ALC@unique=\count309
+\c@ALC@line=\count310
+\c@ALC@rem=\count311
+\c@ALC@depth=\count312
 \ALC@tlm=\skip59
 \algorithmicindent=\skip60
 ) (/usr/local/texlive/2022/texmf-dist/tex/latex/base/textcomp.sty
@@ -464,30 +466,30 @@ Package: textcomp 2020/02/02 v2.0n Standard LaTeX package
 Package: l3keys2e 2022-01-12 LaTeX2e option processing using LaTeX3 keys
 )
 Package: media9 2022/03/18 v1.24 acrobat-9/X compatible media
-\g_mix_pkgresizeflag_int=\count309
+\g_mix_pkgresizeflag_int=\count313
  (/usr/local/texlive/2022/texmf-dist/tex/latex/media9/pdfbase.sty
 Package: pdfbase 2022/03/18 v0.54 driver independent access to low-level PDF features
-\g_pbs_page_int=\count310
-\g_pbs_oc_int=\count311
+\g_pbs_page_int=\count314
+\g_pbs_oc_int=\count315
 ) (/usr/local/texlive/2022/texmf-dist/tex/latex/ocgx2/ocgbase.sty
 Package: ocgbase 2021/06/11 v0.20 support package for ocgx2.sty
-\g_ocgbase_nd_int=\count312
+\g_ocgbase_nd_int=\count316
 )
 \l_mix_poster_box=\box66
 \g_mix_wd_dim=\dimen289
 \g_mix_ht_dim=\dimen290
 \g_mix_dp_dim=\dimen291
-\g_mix_rmcnt_int=\count313
-\l_mix_viewcnt_int=\count314
-\g@mix@page@int=\count315
-\g_mix_resizeflag_int=\count316
-\l_mix_lineno_int=\count317
+\g_mix_rmcnt_int=\count317
+\l_mix_viewcnt_int=\count318
+\g@mix@page@int=\count319
+\g_mix_resizeflag_int=\count320
+\l_mix_lineno_int=\count321
 \l_mix_pbtn_box=\box67
-\g_mix_mbtncnt_int=\count318
+\g_mix_mbtncnt_int=\count322
 \mix@btn@dim=\dimen292
 ) (/usr/local/texlive/2022/texmf-dist/tex/latex/float/float.sty
 Package: float 2001/11/08 v1.3d Float enhancements (AL)
-\c@float@type=\count319
+\c@float@type=\count323
 \float@exts=\toks35
 \float@box=\box68
 \@float@everytoks=\toks36
@@ -500,33 +502,33 @@ LaTeX Warning: Unused global option(s):
 No file conference_101719.aux.
 \openout1 = `conference_101719.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 39.
-LaTeX Font Info:    ... okay on input line 39.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 39.
-LaTeX Font Info:    ... okay on input line 39.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 39.
-LaTeX Font Info:    ... okay on input line 39.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 39.
-LaTeX Font Info:    ... okay on input line 39.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 39.
-LaTeX Font Info:    ... okay on input line 39.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 39.
-LaTeX Font Info:    ... okay on input line 39.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 39.
-LaTeX Font Info:    ... okay on input line 39.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 38.
+LaTeX Font Info:    ... okay on input line 38.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 38.
+LaTeX Font Info:    ... okay on input line 38.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 38.
+LaTeX Font Info:    ... okay on input line 38.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 38.
+LaTeX Font Info:    ... okay on input line 38.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 38.
+LaTeX Font Info:    ... okay on input line 38.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 38.
+LaTeX Font Info:    ... okay on input line 38.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 38.
+LaTeX Font Info:    ... okay on input line 38.
 -- Lines per column: 56 (exact).
 (/usr/local/texlive/2022/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count320
+\scratchcounter=\count324
 \scratchdimen=\dimen293
 \scratchbox=\box70
-\nofMPsegments=\count321
-\nofMParguments=\count322
+\nofMPsegments=\count325
+\nofMParguments=\count326
 \everyMPshowfont=\toks37
-\MPscratchCnt=\count323
+\MPscratchCnt=\count327
 \MPscratchDim=\dimen294
-\MPnumerator=\count324
-\makeMPintoPDFobject=\count325
+\MPnumerator=\count328
+\makeMPintoPDFobject=\count329
 \everyMPtoPDFconversion=\toks38
 ) (/usr/local/texlive/2022/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
@@ -537,37 +539,801 @@ File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: subfig package v1.3 is loaded.
 Package caption Info: float package is loaded.
+Package caption Info: End \AtBeginDocument code.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 52.
+ (/usr/local/texlive/2022/texmf-dist/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Trying to load font information for U+msb on input line 52.
+ (/usr/local/texlive/2022/texmf-dist/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
+/Users/sebastianozuddas/Programming/Latex/ACS6116---Rocket-Landing-MPC-/conference_101719.tex:95: Missing $ inserted.
+<inserted text> 
+                $
+l.95 
+     
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+/Users/sebastianozuddas/Programming/Latex/ACS6116---Rocket-Landing-MPC-/conference_101719.tex:95: Missing } inserted.
+<inserted text> 
+                }
+l.95 
+     
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+/Users/sebastianozuddas/Programming/Latex/ACS6116---Rocket-Landing-MPC-/conference_101719.tex:95: Display math should end with $$.
+<to be read again> 
+                   \tex_par:D 
+l.95 
+     
+The `$' that I just saw supposedly matches a previous `$$'.
+So I shall assume that you typed `$$' both times.
 
 
-/Users/sebastianozuddas/Programming/Latex/ACS6116---Rocket-Landing-MPC-/conference_101719.tex:39: Package subcaption Error: This package can't be used in cooperation
-(subcaption)                with the subfig package.
+Overfull \hbox (26.6209pt too wide) detected at line 95
+[][] \OT1/cmr/m/n/10 = [] [] +|  []
+ []
 
-See the subcaption package documentation for explanation.
+/Users/sebastianozuddas/Programming/Latex/ACS6116---Rocket-Landing-MPC-/conference_101719.tex:95: Extra }, or forgotten \endgroup.
+\par ...m \@noitemerr {\@@par }\fi \else {\@@par }
+                                                  \fi 
+l.95 
+     
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+/Users/sebastianozuddas/Programming/Latex/ACS6116---Rocket-Landing-MPC-/conference_101719.tex:96: Missing $ inserted.
+<inserted text> 
+                $
+l.96     \begin{bmatrix}
+                        
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+/Users/sebastianozuddas/Programming/Latex/ACS6116---Rocket-Landing-MPC-/conference_101719.tex:103: Missing $ inserted.
+<inserted text> 
+                $
+l.103     \end{bmatrix}
+                       
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+/Users/sebastianozuddas/Programming/Latex/ACS6116---Rocket-Landing-MPC-/conference_101719.tex:104: Missing $ inserted.
+<inserted text> 
+                $
+l.104     \begin{bmatrix}
+                         
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+/Users/sebastianozuddas/Programming/Latex/ACS6116---Rocket-Landing-MPC-/conference_101719.tex:108: Missing $ inserted.
+<inserted text> 
+                $
+l.108     \end{bmatrix}
+                       
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+
+/Users/sebastianozuddas/Programming/Latex/ACS6116---Rocket-Landing-MPC-/conference_101719.tex:110: LaTeX Error: Bad math environment delimiter.
+
+See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.39 \begin{document}
-                     
-If you do not understand this error, please take a closer look
-at the documentation of the `subcaption' package, especially the
-section about errors.
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
+l.110 \end{equation}
+                    
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
 
-Package caption Info: End \AtBeginDocument code.
+/Users/sebastianozuddas/Programming/Latex/ACS6116---Rocket-Landing-MPC-/conference_101719.tex:110: You can't use `\eqno' in horizontal mode.
+\endmathdisplay@a ...\df@tag \@empty \else \veqno 
+                                                  \alt@tag \df@tag \fi \ifx ...
+l.110 \end{equation}
+                    
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+/Users/sebastianozuddas/Programming/Latex/ACS6116---Rocket-Landing-MPC-/conference_101719.tex:110: Missing $ inserted.
+<inserted text> 
+                $
+l.110 \end{equation}
+                    
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+/Users/sebastianozuddas/Programming/Latex/ACS6116---Rocket-Landing-MPC-/conference_101719.tex:110: Display math should end with $$.
+<to be read again> 
+                   \endgroup 
+l.110 \end{equation}
+                    
+The `$' that I just saw supposedly matches a previous `$$'.
+So I shall assume that you typed `$$' both times.
+
+LaTeX Font Info:    Trying to load font information for OT1+pcr on input line 115.
+(/usr/local/texlive/2022/texmf-dist/tex/latex/psnfss/ot1pcr.fd
+File: ot1pcr.fd 2001/06/04 font definitions for OT1/pcr.
 )
-! Emergency stop.
-<*> ...116---Rocket-Landing-MPC-/conference_101719
-                                                  
-*** (job aborted, no legal \end found)
+Underfull \hbox (badness 1681) in paragraph at lines 114--116
+\OT1/ptm/m/n/10 por-tant to check for con-trol-la-bil-ity. Through MAT-LAB:
+ []
 
- 
+
+Overfull \hbox (2.5pt too wide) in paragraph at lines 137--156
+[][]\OT1/pcr/m/n/10 K_2 = -place(A, B, [0.01 0.01 0 0.01 0 0])[]\OT1/ptm/m/n/10 .
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 137--156
+[][]\OT1/pcr/m/n/10 predict_mats() []\OT1/ptm/m/n/10 func-tion, and the cor-re-spond-ing
+ []
+
+
+Underfull \hbox (badness 1688) in paragraph at lines 137--156
+\OT1/ptm/m/n/10 cost ma-tri-ces $\OML/cmm/m/it/10 H$\OT1/ptm/m/n/10 , $\OML/cmm/m/it/10 L$ \OT1/ptm/m/n/10 and $\OML/cmm/m/it/10 M$ \OT1/ptm/m/n/10 were gen-er-ated us-ing the
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 137--156
+
+ []
+
+[1{/usr/local/texlive/2022/texmf-var/fonts/map/pdftex/updmap/pdftex.map}
+
+
+]
+
+/Users/sebastianozuddas/Programming/Latex/ACS6116---Rocket-Landing-MPC-/conference_101719.tex:178: LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.178     \\
+            
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+/Users/sebastianozuddas/Programming/Latex/ACS6116---Rocket-Landing-MPC-/conference_101719.tex:178: Missing $ inserted.
+<inserted text> 
+                $
+l.178     \\
+            
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+/Users/sebastianozuddas/Programming/Latex/ACS6116---Rocket-Landing-MPC-/conference_101719.tex:178: Missing } inserted.
+<inserted text> 
+                }
+l.178     \\
+            
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+/Users/sebastianozuddas/Programming/Latex/ACS6116---Rocket-Landing-MPC-/conference_101719.tex:178: Display math should end with $$.
+<to be read again> 
+                   \tex_par:D 
+l.178     \\
+            
+The `$' that I just saw supposedly matches a previous `$$'.
+So I shall assume that you typed `$$' both times.
+
+/Users/sebastianozuddas/Programming/Latex/ACS6116---Rocket-Landing-MPC-/conference_101719.tex:178: Extra }, or forgotten \endgroup.
+\par ...m \@noitemerr {\@@par }\fi \else {\@@par }
+                                                  \fi 
+l.178     \\
+            
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+/Users/sebastianozuddas/Programming/Latex/ACS6116---Rocket-Landing-MPC-/conference_101719.tex:179: Missing $ inserted.
+<inserted text> 
+                $
+l.179     q_
+            x =
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+/Users/sebastianozuddas/Programming/Latex/ACS6116---Rocket-Landing-MPC-/conference_101719.tex:203: Missing $ inserted.
+<inserted text> 
+                $
+l.203 \]
+        
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+
+LaTeX Warning: Reference `tikz:axes' on page 2 undefined on input line 225.
+
+
+LaTeX Warning: Citation `test' on page 2 undefined on input line 226.
+
+
+LaTeX Warning: Reference `eq:1' on page 2 undefined on input line 245.
+
+[2]
+
+/Users/sebastianozuddas/Programming/Latex/ACS6116---Rocket-Landing-MPC-/conference_101719.tex:313: LaTeX Error: Environment subfigure undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.313     \begin{subfigure}
+                           {\columnwidth}
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+/Users/sebastianozuddas/Programming/Latex/ACS6116---Rocket-Landing-MPC-/conference_101719.tex:313: Missing number, treated as zero.
+<to be read again> 
+                   }
+l.313     \begin{subfigure}{\columnwidth}
+                                         
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+/Users/sebastianozuddas/Programming/Latex/ACS6116---Rocket-Landing-MPC-/conference_101719.tex:313: Illegal unit of measure (pt inserted).
+<to be read again> 
+                   }
+l.313     \begin{subfigure}{\columnwidth}
+                                         
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+<new_final_figs/Unconstrained_input_plot.png, id=30, 562.2606pt x 421.575pt>
+File: new_final_figs/Unconstrained_input_plot.png Graphic file (type png)
+<use new_final_figs/Unconstrained_input_plot.png>
+Package pdftex.def Info: new_final_figs/Unconstrained_input_plot.png  used on input line 315.
+(pdftex.def)             Requested size: 252.0pt x 188.94792pt.
+
+/Users/sebastianozuddas/Programming/Latex/ACS6116---Rocket-Landing-MPC-/conference_101719.tex:318: LaTeX Error: \begin{figure} on input line 311 ended by \end{subfigure}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.318     \end{subfigure}
+                         
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+/Users/sebastianozuddas/Programming/Latex/ACS6116---Rocket-Landing-MPC-/conference_101719.tex:319: LaTeX Error: Environment subfigure undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.319     \begin{subfigure}
+                           {\columnwidth}
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+/Users/sebastianozuddas/Programming/Latex/ACS6116---Rocket-Landing-MPC-/conference_101719.tex:319: Missing number, treated as zero.
+<to be read again> 
+                   }
+l.319     \begin{subfigure}{\columnwidth}
+                                         
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+/Users/sebastianozuddas/Programming/Latex/ACS6116---Rocket-Landing-MPC-/conference_101719.tex:319: Illegal unit of measure (pt inserted).
+<to be read again> 
+                   }
+l.319     \begin{subfigure}{\columnwidth}
+                                         
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+<new_final_figs/Unconstrained_position_state_plot.png, id=31, 562.2606pt x 421.575pt>
+File: new_final_figs/Unconstrained_position_state_plot.png Graphic file (type png)
+<use new_final_figs/Unconstrained_position_state_plot.png>
+Package pdftex.def Info: new_final_figs/Unconstrained_position_state_plot.png  used on input line 321.
+(pdftex.def)             Requested size: 252.0pt x 188.94792pt.
+
+/Users/sebastianozuddas/Programming/Latex/ACS6116---Rocket-Landing-MPC-/conference_101719.tex:324: LaTeX Error: \begin{figure} on input line 311 ended by \end{subfigure}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.324     \end{subfigure}
+                         
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+/Users/sebastianozuddas/Programming/Latex/ACS6116---Rocket-Landing-MPC-/conference_101719.tex:325: LaTeX Error: Environment subfigure undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.325     \begin{subfigure}
+                           {\columnwidth}
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+/Users/sebastianozuddas/Programming/Latex/ACS6116---Rocket-Landing-MPC-/conference_101719.tex:325: Missing number, treated as zero.
+<to be read again> 
+                   }
+l.325     \begin{subfigure}{\columnwidth}
+                                         
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+/Users/sebastianozuddas/Programming/Latex/ACS6116---Rocket-Landing-MPC-/conference_101719.tex:325: Illegal unit of measure (pt inserted).
+<to be read again> 
+                   }
+l.325     \begin{subfigure}{\columnwidth}
+                                         
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+<new_final_figs/Unconstrained_velocity_state_plot.png, id=32, 562.2606pt x 421.575pt>
+File: new_final_figs/Unconstrained_velocity_state_plot.png Graphic file (type png)
+<use new_final_figs/Unconstrained_velocity_state_plot.png>
+Package pdftex.def Info: new_final_figs/Unconstrained_velocity_state_plot.png  used on input line 327.
+(pdftex.def)             Requested size: 252.0pt x 188.94792pt.
+
+/Users/sebastianozuddas/Programming/Latex/ACS6116---Rocket-Landing-MPC-/conference_101719.tex:330: LaTeX Error: \begin{figure} on input line 311 ended by \end{subfigure}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.330     \end{subfigure}
+                         
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+/Users/sebastianozuddas/Programming/Latex/ACS6116---Rocket-Landing-MPC-/conference_101719.tex:337: LaTeX Error: Environment subfigure undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.337     \begin{subfigure}
+                           {\columnwidth}
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+/Users/sebastianozuddas/Programming/Latex/ACS6116---Rocket-Landing-MPC-/conference_101719.tex:337: Missing number, treated as zero.
+<to be read again> 
+                   }
+l.337     \begin{subfigure}{\columnwidth}
+                                         
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+/Users/sebastianozuddas/Programming/Latex/ACS6116---Rocket-Landing-MPC-/conference_101719.tex:337: Illegal unit of measure (pt inserted).
+<to be read again> 
+                   }
+l.337     \begin{subfigure}{\columnwidth}
+                                         
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+<new_final_figs/Constrained_input_plot.png, id=33, 562.2606pt x 421.575pt>
+File: new_final_figs/Constrained_input_plot.png Graphic file (type png)
+<use new_final_figs/Constrained_input_plot.png>
+Package pdftex.def Info: new_final_figs/Constrained_input_plot.png  used on input line 339.
+(pdftex.def)             Requested size: 252.0pt x 188.94792pt.
+
+/Users/sebastianozuddas/Programming/Latex/ACS6116---Rocket-Landing-MPC-/conference_101719.tex:342: LaTeX Error: \begin{figure} on input line 335 ended by \end{subfigure}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.342     \end{subfigure}
+                         
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+/Users/sebastianozuddas/Programming/Latex/ACS6116---Rocket-Landing-MPC-/conference_101719.tex:343: LaTeX Error: Environment subfigure undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.343     \begin{subfigure}
+                           {\columnwidth}
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+/Users/sebastianozuddas/Programming/Latex/ACS6116---Rocket-Landing-MPC-/conference_101719.tex:343: Missing number, treated as zero.
+<to be read again> 
+                   }
+l.343     \begin{subfigure}{\columnwidth}
+                                         
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+/Users/sebastianozuddas/Programming/Latex/ACS6116---Rocket-Landing-MPC-/conference_101719.tex:343: Illegal unit of measure (pt inserted).
+<to be read again> 
+                   }
+l.343     \begin{subfigure}{\columnwidth}
+                                         
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+<new_final_figs/Constrained_position_state_plot.png, id=34, 562.2606pt x 421.575pt>
+File: new_final_figs/Constrained_position_state_plot.png Graphic file (type png)
+<use new_final_figs/Constrained_position_state_plot.png>
+Package pdftex.def Info: new_final_figs/Constrained_position_state_plot.png  used on input line 345.
+(pdftex.def)             Requested size: 252.0pt x 188.94792pt.
+
+/Users/sebastianozuddas/Programming/Latex/ACS6116---Rocket-Landing-MPC-/conference_101719.tex:348: LaTeX Error: \begin{figure} on input line 335 ended by \end{subfigure}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.348     \end{subfigure}
+                         
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+/Users/sebastianozuddas/Programming/Latex/ACS6116---Rocket-Landing-MPC-/conference_101719.tex:349: LaTeX Error: Environment subfigure undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.349     \begin{subfigure}
+                           {\columnwidth}
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+/Users/sebastianozuddas/Programming/Latex/ACS6116---Rocket-Landing-MPC-/conference_101719.tex:349: Missing number, treated as zero.
+<to be read again> 
+                   }
+l.349     \begin{subfigure}{\columnwidth}
+                                         
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+/Users/sebastianozuddas/Programming/Latex/ACS6116---Rocket-Landing-MPC-/conference_101719.tex:349: Illegal unit of measure (pt inserted).
+<to be read again> 
+                   }
+l.349     \begin{subfigure}{\columnwidth}
+                                         
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+<new_final_figs/Constrained_velocity_state_plot.png, id=35, 562.2606pt x 421.575pt>
+File: new_final_figs/Constrained_velocity_state_plot.png Graphic file (type png)
+<use new_final_figs/Constrained_velocity_state_plot.png>
+Package pdftex.def Info: new_final_figs/Constrained_velocity_state_plot.png  used on input line 351.
+(pdftex.def)             Requested size: 252.0pt x 188.94792pt.
+
+/Users/sebastianozuddas/Programming/Latex/ACS6116---Rocket-Landing-MPC-/conference_101719.tex:354: LaTeX Error: \begin{figure} on input line 335 ended by \end{subfigure}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.354     \end{subfigure}
+                         
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+/Users/sebastianozuddas/Programming/Latex/ACS6116---Rocket-Landing-MPC-/conference_101719.tex:359: LaTeX Error: Environment subfigure undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.359     \begin{subfigure}
+                           {\columnwidth}
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+/Users/sebastianozuddas/Programming/Latex/ACS6116---Rocket-Landing-MPC-/conference_101719.tex:359: Missing number, treated as zero.
+<to be read again> 
+                   }
+l.359     \begin{subfigure}{\columnwidth}
+                                         
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+/Users/sebastianozuddas/Programming/Latex/ACS6116---Rocket-Landing-MPC-/conference_101719.tex:359: Illegal unit of measure (pt inserted).
+<to be read again> 
+                   }
+l.359     \begin{subfigure}{\columnwidth}
+                                         
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+<new_final_figs/DR_Constrained_input_plot.png, id=36, 562.2606pt x 421.575pt>
+File: new_final_figs/DR_Constrained_input_plot.png Graphic file (type png)
+<use new_final_figs/DR_Constrained_input_plot.png>
+Package pdftex.def Info: new_final_figs/DR_Constrained_input_plot.png  used on input line 361.
+(pdftex.def)             Requested size: 252.0pt x 188.94792pt.
+
+/Users/sebastianozuddas/Programming/Latex/ACS6116---Rocket-Landing-MPC-/conference_101719.tex:364: LaTeX Error: \begin{figure} on input line 357 ended by \end{subfigure}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.364     \end{subfigure}
+                         
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+/Users/sebastianozuddas/Programming/Latex/ACS6116---Rocket-Landing-MPC-/conference_101719.tex:365: LaTeX Error: Environment subfigure undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.365     \begin{subfigure}
+                           {\columnwidth}
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+/Users/sebastianozuddas/Programming/Latex/ACS6116---Rocket-Landing-MPC-/conference_101719.tex:365: Missing number, treated as zero.
+<to be read again> 
+                   }
+l.365     \begin{subfigure}{\columnwidth}
+                                         
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+/Users/sebastianozuddas/Programming/Latex/ACS6116---Rocket-Landing-MPC-/conference_101719.tex:365: Illegal unit of measure (pt inserted).
+<to be read again> 
+                   }
+l.365     \begin{subfigure}{\columnwidth}
+                                         
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+<new_final_figs/DR_Constrained_position_state_plot.png, id=37, 562.2606pt x 421.575pt>
+File: new_final_figs/DR_Constrained_position_state_plot.png Graphic file (type png)
+<use new_final_figs/DR_Constrained_position_state_plot.png>
+Package pdftex.def Info: new_final_figs/DR_Constrained_position_state_plot.png  used on input line 367.
+(pdftex.def)             Requested size: 252.0pt x 188.94792pt.
+
+/Users/sebastianozuddas/Programming/Latex/ACS6116---Rocket-Landing-MPC-/conference_101719.tex:370: LaTeX Error: \begin{figure} on input line 357 ended by \end{subfigure}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.370     \end{subfigure}
+                         
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+/Users/sebastianozuddas/Programming/Latex/ACS6116---Rocket-Landing-MPC-/conference_101719.tex:371: LaTeX Error: Environment subfigure undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.371     \begin{subfigure}
+                           {\columnwidth}
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+/Users/sebastianozuddas/Programming/Latex/ACS6116---Rocket-Landing-MPC-/conference_101719.tex:371: Missing number, treated as zero.
+<to be read again> 
+                   }
+l.371     \begin{subfigure}{\columnwidth}
+                                         
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+/Users/sebastianozuddas/Programming/Latex/ACS6116---Rocket-Landing-MPC-/conference_101719.tex:371: Illegal unit of measure (pt inserted).
+<to be read again> 
+                   }
+l.371     \begin{subfigure}{\columnwidth}
+                                         
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+<new_final_figs/DR_Constrained_velocity_state_plot.png, id=38, 562.2606pt x 421.575pt>
+File: new_final_figs/DR_Constrained_velocity_state_plot.png Graphic file (type png)
+<use new_final_figs/DR_Constrained_velocity_state_plot.png>
+Package pdftex.def Info: new_final_figs/DR_Constrained_velocity_state_plot.png  used on input line 373.
+(pdftex.def)             Requested size: 252.0pt x 188.94792pt.
+
+/Users/sebastianozuddas/Programming/Latex/ACS6116---Rocket-Landing-MPC-/conference_101719.tex:376: LaTeX Error: \begin{figure} on input line 357 ended by \end{subfigure}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.376     \end{subfigure}
+                         
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [3 <./new_final_figs/Unconstrained_input_plot.png (PNG copy)> <./new_final_figs/Unconstrained_position_state_plot.png (PNG copy)> <./new_final_figs/Unconstrained_velocity_state_plot.png (PNG copy)> <./new_final_figs/Constrained_input_plot.png (PNG copy)> <./new_final_figs/Constrained_position_state_plot.png (PNG copy)> <./new_final_figs/Constrained_velocity_state_plot.png (PNG copy)>]
+Underfull \hbox (badness 10000) in paragraph at lines 380--381
+
+ []
+
+
+Underfull \vbox (badness 8113) has occurred while \output is active []
+
+ [4 <./new_final_figs/DR_Constrained_input_plot.png (PNG copy)> <./new_final_figs/DR_Constrained_position_state_plot.png (PNG copy)> <./new_final_figs/DR_Constrained_velocity_state_plot.png (PNG copy)>]
+
+LaTeX Warning: Reference `AA' on page 5 undefined on input line 405.
+
+
+LaTeX Warning: Reference `SCM' on page 5 undefined on input line 405.
+
+
+LaTeX Warning: Citation `handout' on page 5 undefined on input line 428.
+
+
+LaTeX Warning: Reference `eq' on page 5 undefined on input line 440.
+
+
+LaTeX Warning: Reference `eq' on page 5 undefined on input line 440.
+
+
+LaTeX Warning: Reference `eq' on page 5 undefined on input line 440.
+
+
+LaTeX Warning: Reference `eq' on page 5 undefined on input line 441.
+
+[5]
+
+LaTeX Warning: Citation `b7' on page 6 undefined on input line 494.
+
+
+LaTeX Warning: Reference `fig' on page 6 undefined on input line 530.
+
+LaTeX Font Info:    Trying to load font information for OMS+ptm on input line 555.
+(/usr/local/texlive/2022/texmf-dist/tex/latex/psnfss/omsptm.fd
+File: omsptm.fd 
+)
+LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <10> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 555.
+
+No file conference_101719.bbl.
+
+** Conference Paper **
+Before submitting the final camera ready copy, remember to:
+
+ 1. Manually equalize the lengths of two columns on the last page
+ of your paper;
+
+ 2. Ensure that any PostScript and/or PDF output post-processing
+ uses only Type 1 fonts and that every step in the generation
+ process uses the appropriate paper size.
+
+[6] [7] (./conference_101719.aux)
+
+LaTeX Warning: There were undefined references.
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+
+LaTeX Warning: Temporary extra page added at the end. Rerun to get it removed.
+
+ ) 
 Here is how much of TeX's memory you used:
- 18172 strings out of 478268
- 371140 string characters out of 5846347
- 653437 words of memory out of 5000000
- 36111 multiletter control sequences out of 15000+600000
- 490329 words of font info for 68 fonts, out of 8000000 for 9000
+ 18485 strings out of 478268
+ 378795 string characters out of 5846347
+ 682144 words of memory out of 5000000
+ 36364 multiletter control sequences out of 15000+600000
+ 512635 words of font info for 111 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 100i,1n,104p,490b,152s stack positions out of 10000i,1000n,20000p,200000b,200000s
-!  ==> Fatal error occurred, no output PDF file produced!
+ 100i,11n,104p,660b,824s stack positions out of 10000i,1000n,20000p,200000b,200000s
+{/usr/local/texlive/2022/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/urw/courier/ucrr8a.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/urw/times/utmbi8a.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
+Output written on conference_101719.pdf (7 pages, 631498 bytes).
+PDF statistics:
+ 132 PDF objects out of 1000 (max. 8388607)
+ 79 compressed objects within 1 object stream
+ 0 named destinations out of 1000 (max. 500000)
+ 58 words of extra memory for PDF output out of 10000 (max. 10000000)
+
