@@ -32,7 +32,6 @@ $$
         v_z(k)\\
     \end{bmatrix}
     +
-    \hspace*{2cm}
     \begin{bmatrix}
         \frac{T_s^2}{2m} & 0 & 0\\
         0 & \frac{T_s^2}{2m} & 0\\
