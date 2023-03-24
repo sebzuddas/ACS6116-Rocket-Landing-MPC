@@ -4,7 +4,7 @@ An assignment set for the ACS6116 - Advanced Control module. The assignment focu
 ## The Objective 
 Model a point mass rocket, and land it at the coordinates $\vec r(k_f)=(0, 0, 0)$.
 
-# The Model
+### The Model
 $$
     \begin{bmatrix}
         r_x(k+1)\\
