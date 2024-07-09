@@ -62,3 +62,20 @@ I started with the conception of an unconstrained MPC controller. Here, I focuse
 
 
 ![unconstrained inputs](/Final_figs/Unconstrained_input_plot.png)
+
+
+## Constrained Optimisation
+
+The introduction of constraints quickly became crucial. The second iteration of the controller incorporated constraints for engine thrust and angle, marking a leap towards a more realistic scenario. These limits ensured the rocket’s manoeuvres remained within feasible operational bounds, such as acceptable engine thrust angles and glide slope angles.
+
+![constrained inputs](/Final_figs/Constrained_input_plot.png)
+
+## Disturbance Rejection
+To further increase realism in the rocket landing scenario, integrating disturbance rejection capabilities to counteract environmental influences, particularly wind disturbances, became a priority. This final enhancement was not just about adding another layer of complexity; it was about building resilience into the system, which now could maintain its trajectory under unpredictable conditions.
+
+
+
+
+
+
+
