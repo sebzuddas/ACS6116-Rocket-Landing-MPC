@@ -61,4 +61,4 @@ I started with the conception of an unconstrained MPC controller. Here, I focuse
 
 
 
-![unconstrained inputs](Unconstrained_input_plot.png)
+![unconstrained inputs](/Final_figs/Unconstrained_input_plot.png)
