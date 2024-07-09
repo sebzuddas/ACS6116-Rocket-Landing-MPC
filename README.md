@@ -73,9 +73,7 @@ The introduction of constraints quickly became crucial. The second iteration of 
 ## Disturbance Rejection
 To further increase realism in the rocket landing scenario, integrating disturbance rejection capabilities to counteract environmental influences, particularly wind disturbances, became a priority. This final enhancement was not just about adding another layer of complexity; it was about building resilience into the system, which now could maintain its trajectory under unpredictable conditions.
 
-
-
-
+https://github.com/sebzuddas/ACS6116-Rocket-Landing-MPC/assets/62427628/094f4dfe-9e9c-47ec-97c9-746675503f28
 
 
 
